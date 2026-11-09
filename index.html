@@ -1,0 +1,3405 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victa Designz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#0A2620">
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAALJUlEQVR42u1baWxU1xn9vnvfMsb2DMY2XthxvGAMmDWB2hTCooS4JFLabCJUTZSUpGkrtSpVU1X5kV+VWql7o7a00ASapIgtOA6rCRCIIcZm8YIXbGxsvIyXGRtm5r13v9sf5qWDjYGxGcdSfK0n2dJ9M/eee863nPeM49KmS/gaDwZf8zEGwBgAYwCMATAGwBgAYwB8fYcSMmKMERGxSQkJ19etXF2dlZ4BsTExms/vF82tLWZlbY168XJl/OXamhmmZanDWRwiSgCAlClTry6YO685MiJCMGRS0zSpKQo4dF2qqgq6rmNPT48sq66KyC888nBYASAi9uJTT598e/MvMuJjY5ffaY7h8xlXGhsaThWfbS44VqifOlec5unxuqSUOBQA0memtKXPSDGaWq9zb2+PEjAMRkQYMAxuWBa3TINnZ2Z1JU1MCISdAatzlhe/8+vf5AAAmAG/GLBoQNR0XctIS0/JSEtPeen5DbD1/R0nfvDWL3M550IIwUMBQAjBly5c7PvoyKHYotJzcwabm7NoybHjZz5PCnsM2Pzqa6qUUhp+v6XwgT+ccyaEkFYgQH6fzyAi2nWgYNxQJCCE4JqqGpmpqZF11xoSOedC4dzinAv7YoyRMzra63K5sLymOiXsDJidljYdpURVUQa9lyGiAJCOiAjtcnVV3bGi09n2aYYaa+ZnZlU5o6P1Nrc7HhFlsIzsOVlp6XXXW1sglM8fMgN0TddB3ruDJikJAGD/0cMNQgjOGRMhLQyRAADyVq3paHW7b9gbvlOMWDh7Tvf5ykrniKRB0zRNQAQikvfYAAMAOHTiuAsAQAKEFAAFEQcAyF28JO5iZYW/L76A7B+QEVFOSkqCS5UV00YEgLYOdwcwdq9MIRVNYx1ud9eFyvIZ9mJDob+UEqckJzfrmqYUX7wQ1R9EWw7TJ09pNEwTOj3dE/ozJCwAVNbWtPZRnGhw+hMBIlReqWn09PS4+mv3ftPf0uyF9S3u9t5rLdfHAwD01z8AwOK58xora2t4sGzCCsDZC6U37zVHyj6qXr5S6wEACFX/NrUz09KMhqZrN7s9nuj+ANi/z3oo1Tx74XzyLdmwsAPwWXFxrLQsqTB+z3vrGxtFqJ9vs2XGlKmNCufY4nYLT09PVPCmEVESEXNGR3sjdAfWXq2ffuu+8ANwvqIs5WpTUxOqKgohaJBdAABAa4d7SKU2AMCiufOutba3g8/nw5t+X6Qti2CJLJg9p7a5rQWIiA1F/0MC4KbPN+508dmrUkppp7qB1WDfSfX29iq2Ju532KecMnWaUd90zUG37lU4txTOLc6YZUtqbsYsb0lZmau/PMLeDX5y/BhDRES8e2ozTJMBAEhEvF/6ExFLiItvk1JCt9er+wN+ZIyRaVmqJYQiiBTTslRElJMSEuF8ZfnMULPMsCpBAIBjRafTvB5Pr9PpjBKmKRljd9ygQ9cFAADK+6MAY4yEEHzlI0urq+uu6BEOh9np8ShExB6eN//SwwsWdAAAnPribNwNn0+/cfOG9Pb0OO2KcEQYwDkX7s7O2ONFp8slgBREYrAs4IyOtoJjwv3SX9c0+qz4i5mTEhP9tfX1Mc/krT/1vWef665vbHTUNzY61q9e2775+6+3FV+6GDHifgACSECUOwvyrby1j91VBkkTE0JOfwAA23btzL31d9WanNzW8U4nbnrz59+05+07fBDWrXj0TEdX17jh6H9IAAgiDlLiwZPHZ3e0t3fGxsVNGEwGKVOnDckQUTi3BBGPj40V69c+lrhmw7PTEFFyxoTsUxQWfFq42M4GwwEgZAlIKZFzLjxeryu/8Eg5IEJ/Gdh9wKzUtDhElHZdf99MkJJJKfGTY4XJb/zqTfD5/RGIKC0hFCEEJyImpcSh6v6BeYLv7d0dHbzhoGiOQARp02dMS05IaJFSYih52t7YparLaaUVZRl2dhg1pqgQgiOi/LykOKussqJG0XUWXBQxxtA0DTEuKsqxbMGiOkSU91OnK5xbDl33B6dFuzEada4wZ0wIIfiOvbubgvv//pkgb9VqlFLi3dphW8sJ8fHtEbrDF1wSh+vkhw0A3aq7P9y/L723x3tT1TQl2CPgjHFJBGtzV8yZGBfXTkKw4HL2TgCsyVlewxVOMIJj6AAQMc65aG5rTfy48GgpMnZbMGSMoWkYltPlino+78lyCYCDdYVExHRNC7z8zHNxmqqZdwNK4dzSNS3wlQMQPLZ8sCMSpATGbndKGCKTUspNL343NdIRcYOkHMACzrnoa2yyqhbMmz9r8Zy59VJKVDi3+s+TUuKEmJiuBxkThgWAHQxPnSuec+7ihUquqmgJSwQtmllGgKZOnpL8ygsbviAi1p8Fts319ONPdEkp5Ztv/DguwuHwmZalftkA3bLTU6fPqJufmVVvmKY21O7vgTOAMyaIiG15f3s73qHpYcgYWRb97NXX5icnJLYIIm4v3s7tEQ6HL2/VmlRExKxZmQ99+Kd3KiYnJTVbQih27l+5dNm5bb/9vVlRXZU83OLntgMY7ktSiChBSoiKiuotzT/oT0hIjBeGQZz/3zCxhCVU3cH3H/zkzLM/fG2JwrllCaFwzgUJwVbnLC/es2XbIisQIJASFIeDdXV1eg6fOF7W7fVaGTNnOnOX5WTvyv/o8xd/8qNHQn3AElYG2JVhT29v9Ht7dpUh4oCUqHCFmwG/yFv72JJNL2w4bgmhqIpi2kbntx9/wm/7C1xRmOX3U0zMBNd31j+17JUNG5fnLsvJBgD4+/s7HIMFyK+MAbe5uEnJTef2H4h16LqDiCC4PyAiSVISIsq8lzZeOnG2KJsxRpHjxt24UHDYmBg/MTa4pyAiKYgEEZGq67y27krjkifXTbKEUEZNEAxOY4wxamhumrz30IESVBQc0B8whgjAOOf8P3/8y7S5GbMuExFbm7P80sSJCbGmERDBgDHGUFUUhTHGOOd8Z0F+vWlZaqgG64gAEBwP/vzu1hhhWVJhAx8ecM7RMk0ZEzMhZs/f/hmTNjPlyuMrHiUppbQrx/5DVRRuBgLmB/v3TQsuwEaVBIKlQEQs/x/bSlbkLp9vBvxC4cqAYCUsixSHg3V2uLs549zpdEbfyTe0g+enJ0+UrHt54/zhOD8jxgAAgN9t3dJnhQ1iBXFFYSIQkBNi48a7xo+Pvpdp+t6+3TduFVYPvEx+oAAIIThjjI6cOrmg5OKFSq5ptxVGt30x5ygMQwrTlIPEFalqOne73Z0fFx7N+tKMGc0A2KdEROwPW7d04j3cYMYYDmaoCiIBiJB/9FB5t9cz3i6FRz0Agogjotx7oGBhTW3NVUW73SsIAUgGALB9T5/pMuq6wbsWRoyJgGnqf9r2r6tol4qhSYkUXWcVlyuvFJWemx3qyxVfKQDBLNi+b/fCxqZr1xVFDYkFdiX5wf59DZYQyoPO/WEHwGbBTZ8v8q//3lqFnONgj9HuGPwUhft9PmNnQf7McOT+sAMQzIKtu/6b3dba0q6qKhdCkCUsYVqWZV+WECLYSSJJBJzDyaLTF+saG6aGI/ePCAA2Czxer+ud7e+WIecIAKDqDq45HIp9qbrOuaJ8+aSZSBIi4va9uwPhyv1hqwQHK4xcUdGeS4cKMToyKvLM+ZLyippqj9frpfEuF5uVmh6TnTk7zRERoQnDkFzTsOR8acWajc9PDxiGLqXEcLrCGO5/mrLd3W+tWlPU4m6POnu+dHb/OdmZWRWbN73uWbn0G1mfFp0u++nbb01tam1NCjf9RwSA0T7GXpcfA2AMgDEAxgAYA2AMgDEAvrbjf7sJHqkHdUzhAAAAAElFTkSuQmCC">
+  <style>
+    :root {
+      --ink: #0A2620;
+      --ink-2: #0F3A31;
+      --mint: #3DDC97;
+      --brand: #0B7A50;
+      --brand-dark: #086340;
+      --sun: #FFC857;
+      --bg: #F5F7F6;
+      --tint: #E7F0EC;
+      --text: #0D1A16;
+      --muted: #3D4F48;
+      --line: #D0DCD6;
+      --card: #ffffff;
+      --nav-bg: rgba(10,38,32,.88);
+      --nav-text: #ffffff;
+      --hero-text: #ffffff;
+      --footer-bg: #0A2620;
+      --footer-text: rgba(255,255,255,.72);
+      --radius: 18px;
+      --shadow: 0 1px 2px rgba(10,38,32,.04), 0 4px 12px -4px rgba(10,38,32,.06), 0 20px 40px -20px rgba(10,38,32,.16);
+      --shadow-lg: 0 2px 4px rgba(10,38,32,.04), 0 16px 28px -10px rgba(10,38,32,.12), 0 36px 64px -28px rgba(10,38,32,.2);
+      --shadow-glow: 0 0 0 1px rgba(61,220,151,.14), 0 14px 36px -12px rgba(11,122,80,.28);
+      --display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+      --body: 'DM Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    }
+
+    /* Dark theme — readable text on all sections */
+    html[data-theme="dark"] {
+      --ink: #071410;
+      --ink-2: #0C1F1A;
+      --bg: #0B1613;
+      --tint: #15251F;
+      --text: #F0F7F3;
+      --muted: #B0C4BB;
+      --line: #2C4139;
+      --card: #12201C;
+      --nav-bg: rgba(7,20,16,.94);
+      --nav-text: #ffffff;
+      --hero-text: #ffffff;
+      --footer-bg: #060F0C;
+      --footer-text: rgba(240,247,243,.82);
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 20px -8px rgba(0,0,0,.45), 0 24px 48px -20px rgba(0,0,0,.55);
+      --shadow-lg: 0 2px 6px rgba(0,0,0,.35), 0 20px 40px -16px rgba(0,0,0,.55);
+      --shadow-glow: 0 0 0 1px rgba(94,233,168,.18), 0 16px 40px -12px rgba(61,220,151,.3);
+      color-scheme: dark;
+    }
+    html[data-theme="light"] { color-scheme: light; }
+
+    html[data-theme="dark"] body {
+      background: var(--bg) !important;
+      color: var(--text);
+    }
+
+    html[data-theme="dark"] h1,
+    html[data-theme="dark"] h2,
+    html[data-theme="dark"] h3,
+    html[data-theme="dark"] h4 {
+      color: var(--text);
+    }
+    html[data-theme="dark"] p,
+    html[data-theme="dark"] li,
+    html[data-theme="dark"] label,
+    html[data-theme="dark"] .section-subtitle,
+    html[data-theme="dark"] .review-count,
+    html[data-theme="dark"] .apply-note,
+    html[data-theme="dark"] .consent {
+      color: var(--muted);
+    }
+    html[data-theme="dark"] strong { color: var(--text); }
+
+    html[data-theme="dark"] .about,
+    html[data-theme="dark"] #skills,
+    html[data-theme="dark"] #team,
+    html[data-theme="dark"] #faq,
+    html[data-theme="dark"] #apply,
+    html[data-theme="dark"] #portfolio,
+    html[data-theme="dark"] .services {
+      background: var(--bg) !important;
+      color: var(--text);
+    }
+    html[data-theme="dark"] .about { background: var(--card) !important; }
+
+    html[data-theme="dark"] .contact-form,
+    html[data-theme="dark"] .pkg-card:not(.featured),
+    html[data-theme="dark"] .skill-card,
+    html[data-theme="dark"] .team-card,
+    html[data-theme="dark"] .faq-item,
+    html[data-theme="dark"] .info-card,
+    html[data-theme="dark"] .payment-box,
+    html[data-theme="dark"] .testimonial,
+    html[data-theme="dark"] .review,
+    html[data-theme="dark"] .review-viewport,
+    html[data-theme="dark"] .apply-done {
+      background: var(--card) !important;
+      color: var(--text);
+      border-color: var(--line) !important;
+    }
+
+    /* Keep Adobe package cards readable in both themes (dark cards, light text) */
+    html[data-theme="dark"] .adobe-block .pkg-card:not(.featured),
+    html[data-theme="light"] .adobe-block .pkg-card:not(.featured),
+    .adobe-block .pkg-card:not(.featured) {
+      background: #26272E !important;
+      color: #fff !important;
+      border-color: rgba(255,255,255,.08) !important;
+      border-top-color: #EB1000 !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-name,
+    html[data-theme="light"] .adobe-block .pkg-name,
+    .adobe-block .pkg-name {
+      color: #fff !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-usd,
+    html[data-theme="light"] .adobe-block .pkg-usd,
+    .adobe-block .pkg-usd {
+      color: #FF5A4D !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-ugx,
+    html[data-theme="light"] .adobe-block .pkg-ugx,
+    .adobe-block .pkg-ugx {
+      color: rgba(255,255,255,.65) !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-list li,
+    html[data-theme="light"] .adobe-block .pkg-list li,
+    .adobe-block .pkg-list li {
+      color: rgba(255,255,255,.88) !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-price,
+    html[data-theme="light"] .adobe-block .pkg-price,
+    .adobe-block .pkg-price {
+      border-bottom-color: rgba(255,255,255,.14) !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-btn,
+    html[data-theme="light"] .adobe-block .pkg-btn,
+    .adobe-block .pkg-btn {
+      background: transparent !important;
+      color: #fff !important;
+      border-color: rgba(255,255,255,.3) !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-btn:hover,
+    html[data-theme="light"] .adobe-block .pkg-btn:hover,
+    .adobe-block .pkg-btn:hover {
+      background: #EB1000 !important;
+      border-color: #EB1000 !important;
+      color: #fff !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-card.featured,
+    html[data-theme="light"] .adobe-block .pkg-card.featured,
+    .adobe-block .pkg-card.featured {
+      background: linear-gradient(170deg, #EB1000, #B30D00) !important;
+      border-color: #EB1000 !important;
+      border-top-color: #FFC857 !important;
+      color: #fff !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-card.featured .pkg-name,
+    html[data-theme="dark"] .adobe-block .pkg-card.featured .pkg-usd,
+    html[data-theme="light"] .adobe-block .pkg-card.featured .pkg-name,
+    html[data-theme="light"] .adobe-block .pkg-card.featured .pkg-usd,
+    .adobe-block .pkg-card.featured .pkg-name,
+    .adobe-block .pkg-card.featured .pkg-usd {
+      color: #fff !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-card.featured .pkg-ugx,
+    html[data-theme="light"] .adobe-block .pkg-card.featured .pkg-ugx,
+    .adobe-block .pkg-card.featured .pkg-ugx {
+      color: rgba(255,255,255,.85) !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-card.featured .pkg-list li,
+    html[data-theme="light"] .adobe-block .pkg-card.featured .pkg-list li,
+    .adobe-block .pkg-card.featured .pkg-list li {
+      color: rgba(255,255,255,.92) !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-card.featured .pkg-btn,
+    html[data-theme="light"] .adobe-block .pkg-card.featured .pkg-btn,
+    .adobe-block .pkg-card.featured .pkg-btn {
+      background: #fff !important;
+      color: #B30D00 !important;
+      border-color: #fff !important;
+    }
+    html[data-theme="dark"] .adobe-block .pkg-card.featured .pkg-btn:hover,
+    html[data-theme="light"] .adobe-block .pkg-card.featured .pkg-btn:hover,
+    .adobe-block .pkg-card.featured .pkg-btn:hover {
+      background: #FFF1EF !important;
+      color: #B30D00 !important;
+    }
+    html[data-theme="dark"] .adobe-head h3,
+    html[data-theme="light"] .adobe-head h3,
+    .adobe-head h3 {
+      color: #fff !important;
+    }
+    html[data-theme="dark"] .adobe-head p,
+    html[data-theme="light"] .adobe-head p,
+    .adobe-head p {
+      color: rgba(255,255,255,.78) !important;
+    }
+    html[data-theme="dark"] .adobe-note,
+    html[data-theme="light"] .adobe-note,
+    .adobe-note {
+      color: rgba(255,255,255,.6) !important;
+    }
+
+    html[data-theme="dark"] .about-text p { color: var(--muted) !important; }
+    html[data-theme="dark"] .about-content > div:last-child {
+      background: var(--tint) !important;
+      border-color: var(--line);
+      color: var(--text);
+    }
+    html[data-theme="dark"] .about-content li { color: var(--text); }
+
+    html[data-theme="dark"] .pkg-name { color: var(--text) !important; }
+    html[data-theme="dark"] .pkg-list li { color: var(--muted) !important; }
+    html[data-theme="dark"] .pkg-ugx { color: var(--muted) !important; }
+    html[data-theme="dark"] .pkg-usd { color: #5EE9A8 !important; }
+    html[data-theme="dark"] .pkg-price { border-bottom-color: var(--line) !important; }
+    html[data-theme="dark"] .pkg-btn {
+      background: var(--tint) !important;
+      color: #5EE9A8 !important;
+      border-color: var(--line) !important;
+    }
+    html[data-theme="dark"] .pkg-btn:hover {
+      background: var(--brand) !important;
+      color: #fff !important;
+    }
+
+    html[data-theme="dark"] .skill-card h3,
+    html[data-theme="dark"] .team-card h3 { color: var(--text); }
+    html[data-theme="dark"] .skill-card p,
+    html[data-theme="dark"] .team-card p:last-child { color: var(--muted); }
+    html[data-theme="dark"] .team-card .role { color: #5EE9A8; }
+    html[data-theme="dark"] .chips li,
+    html[data-theme="dark"] .tool {
+      background: var(--tint);
+      border-color: var(--line);
+      color: var(--text);
+    }
+
+    html[data-theme="dark"] .faq-question { color: var(--text); }
+    html[data-theme="dark"] .faq-answer { color: var(--muted) !important; }
+    html[data-theme="dark"] .faq-question span {
+      background: var(--tint);
+      color: #5EE9A8;
+    }
+    html[data-theme="dark"] .faq-item.active .faq-question span {
+      background: var(--brand);
+      color: #fff;
+    }
+
+    html[data-theme="dark"] .filter-btn {
+      background: var(--card);
+      color: var(--text);
+      border-color: var(--line);
+    }
+    html[data-theme="dark"] .filter-btn:hover {
+      color: #5EE9A8;
+      border-color: #5EE9A8;
+    }
+    html[data-theme="dark"] .filter-btn.active {
+      background: var(--mint);
+      color: #0A2620;
+      border-color: var(--mint);
+    }
+
+    html[data-theme="dark"] .contact-form input,
+    html[data-theme="dark"] .contact-form select,
+    html[data-theme="dark"] .contact-form textarea,
+    html[data-theme="dark"] .fld input,
+    html[data-theme="dark"] .fld select,
+    html[data-theme="dark"] .fld textarea {
+      background: var(--tint) !important;
+      color: var(--text) !important;
+      border-color: var(--line) !important;
+    }
+    html[data-theme="dark"] .contact-form input::placeholder,
+    html[data-theme="dark"] .contact-form textarea::placeholder {
+      color: #7F9A90;
+    }
+    html[data-theme="dark"] .info-card { color: var(--text); }
+    html[data-theme="dark"] .info-card small { color: var(--muted); }
+    html[data-theme="dark"] .info-card strong { color: var(--text); }
+    html[data-theme="dark"] .info-icon {
+      background: var(--tint);
+      color: #5EE9A8;
+    }
+    html[data-theme="dark"] .form-status {
+      background: var(--tint);
+      color: #5EE9A8;
+    }
+
+    html[data-theme="dark"] .review blockquote { color: var(--text) !important; }
+    html[data-theme="dark"] .review figcaption strong { color: var(--text); }
+    html[data-theme="dark"] .review figcaption small { color: var(--muted); }
+    html[data-theme="dark"] .review-arrow {
+      background: var(--card);
+      color: var(--text);
+      border-color: var(--line);
+    }
+    html[data-theme="dark"] .review-arrow:hover {
+      background: var(--mint);
+      color: #0A2620;
+      border-color: var(--mint);
+    }
+    html[data-theme="dark"] .live-badge {
+      background: var(--card);
+      color: var(--text);
+      border-color: var(--line);
+    }
+    html[data-theme="dark"] .review-progress { background: var(--line); }
+
+    html[data-theme="dark"] .payment-box p,
+    html[data-theme="dark"] .payment-box li { color: var(--muted); }
+    html[data-theme="dark"] .payment-box h3,
+    html[data-theme="dark"] .payment-box strong { color: var(--text); }
+
+    html[data-theme="dark"] footer {
+      background: var(--footer-bg);
+      color: var(--footer-text);
+    }
+    html[data-theme="dark"] footer a { color: rgba(240,247,243,.85); }
+    html[data-theme="dark"] footer a:hover { color: var(--mint); }
+    html[data-theme="dark"] .footer-col h4,
+    html[data-theme="dark"] .footer-brand strong { color: #fff; }
+
+    html[data-theme="dark"] .theme-toggle {
+      color: #FFC857;
+      border-color: rgba(255,200,87,.4);
+      background: rgba(255,200,87,.12);
+    }
+    html[data-theme="dark"] .theme-toggle:hover {
+      background: rgba(255,200,87,.22);
+      color: #FFE09A;
+    }
+
+    html[data-theme="dark"] .pricing-table {
+      background: var(--card);
+      border-color: var(--line);
+    }
+    html[data-theme="dark"] .pricing-table td {
+      color: var(--text);
+      border-bottom-color: var(--line);
+    }
+    html[data-theme="dark"] .pricing-table tr:hover td { background: var(--tint); }
+
+    html[data-theme="dark"] .apply-done h3 { color: var(--text); }
+    html[data-theme="dark"] .apply-done p { color: var(--muted); }
+    html[data-theme="dark"] .pkg-heading { color: var(--text); }
+    html[data-theme="dark"] .services h3 { color: var(--text); }
+
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--body);
+      font-size: 1.0625rem;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    h1, h2, h3 { font-family: var(--display); letter-spacing: -0.02em; line-height: 1.15; color: var(--ink); font-weight: 700; }
+
+    a:focus-visible, button:focus-visible, .faq-question:focus-visible, .portfolio-item:focus-visible {
+      outline: 3px solid var(--sun);
+      outline-offset: 3px;
+    }
+
+    /* NAVIGATION */
+    nav {
+      background: rgba(10,38,32,.88);
+      -webkit-backdrop-filter: blur(14px);
+      backdrop-filter: blur(14px);
+      color: #fff;
+      padding: .75rem 5%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    .nav-end {
+      display: flex;
+      align-items: center;
+      gap: .35rem;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+
+    .logo {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: .55rem;
+    }
+
+    .logo::before {
+      content: '';
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: var(--mint);
+      box-shadow: 0 0 0 4px rgba(61,220,151,.2);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.35rem;
+      list-style: none;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+
+    .nav-links a {
+      color: rgba(255,255,255,.78);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: .97rem;
+      padding: .3rem 0;
+      background: linear-gradient(var(--mint), var(--mint)) no-repeat 0 100% / 0 2px;
+      transition: color .25s, background-size .3s;
+    }
+
+    .nav-links a:hover { color: #fff; background-size: 100% 2px; }
+
+    .nav-links a.nav-cta {
+      background: var(--mint);
+      color: var(--ink);
+      padding: .55rem 1.3rem;
+      border-radius: 999px;
+      font-weight: 600;
+      transition: background .25s, transform .25s;
+    }
+
+    .nav-links a.nav-cta:hover {
+      background: #6BE8B1;
+      color: var(--ink);
+      transform: translateY(-1px);
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+      gap: 5px;
+      padding: 6px;
+      background: none;
+      border: 0;
+      color: #fff;
+    }
+
+    .hamburger span {
+      width: 24px;
+      height: 2.5px;
+      background: #fff;
+      border-radius: 3px;
+      transition: transform .3s, opacity .2s;
+    }
+
+    .hamburger.open span:nth-child(1) { transform: translateY(7.5px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7.5px) rotate(-45deg); }
+
+    .progress {
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      height: 2px;
+      width: 0;
+      background: linear-gradient(90deg, var(--mint), var(--sun));
+    }
+
+    /* ========== HERO with animations ========== */
+    .hero {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      min-height: min(88vh, 780px);
+      padding: 6rem 5%;
+      text-align: left;
+      color: #fff;
+      background:
+        radial-gradient(56rem 36rem at 85% 5%, rgba(61,220,151,.16), transparent 60%),
+        linear-gradient(160deg, var(--ink), #0C302A 60%, var(--ink));
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+      background-size: 56px 56px;
+      -webkit-mask-image: linear-gradient(to bottom, #000 25%, transparent);
+      mask-image: linear-gradient(to bottom, #000 25%, transparent);
+      animation: gridMove 28s linear infinite;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      right: -8rem;
+      top: 50%;
+      width: 30rem;
+      height: 30rem;
+      transform: translateY(-50%);
+      border-radius: 50%;
+      background: radial-gradient(circle at 32% 30%, rgba(61,220,151,.55), rgba(61,220,151,.04) 62%);
+      box-shadow: 0 0 0 3.5rem rgba(255,255,255,.03), 0 0 0 7rem rgba(255,255,255,.02);
+      animation: floatOrb 12s ease-in-out infinite alternate;
+    }
+
+    .hero-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(40px);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero-orb.one {
+      width: 320px;
+      height: 320px;
+      background: rgba(61, 220, 151, 0.18);
+      top: 10%;
+      left: -80px;
+      animation: float1 18s ease-in-out infinite;
+    }
+
+    .hero-orb.two {
+      width: 220px;
+      height: 220px;
+      background: rgba(255, 200, 87, 0.12);
+      bottom: 15%;
+      right: 15%;
+      animation: float2 14s ease-in-out infinite;
+    }
+
+    .hero-orb.three {
+      width: 160px;
+      height: 160px;
+      background: rgba(61, 220, 151, 0.15);
+      top: 40%;
+      left: 40%;
+      animation: float3 20s ease-in-out infinite;
+    }
+
+    .hero-particles span {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: rgba(255,255,255,0.35);
+      border-radius: 50%;
+      pointer-events: none;
+      animation: particle 12s linear infinite;
+    }
+
+    .hero-particles span:nth-child(1) { top: 20%; left: 15%; animation-delay: 0s; }
+    .hero-particles span:nth-child(2) { top: 60%; left: 25%; animation-delay: 2s; }
+    .hero-particles span:nth-child(3) { top: 35%; left: 70%; animation-delay: 4s; }
+    .hero-particles span:nth-child(4) { top: 75%; left: 55%; animation-delay: 1s; }
+    .hero-particles span:nth-child(5) { top: 15%; left: 85%; animation-delay: 3s; }
+    .hero-particles span:nth-child(6) { top: 50%; left: 40%; animation-delay: 5s; }
+
+    @keyframes gridMove {
+      0% { background-position: 0 0; }
+      100% { background-position: 56px 56px; }
+    }
+
+    @keyframes floatOrb {
+      0% { transform: translateY(-50%) scale(1); }
+      100% { transform: translateY(-54%) scale(1.06); }
+    }
+
+    @keyframes float1 {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(40px, 30px); }
+    }
+
+    @keyframes float2 {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(-30px, -40px); }
+    }
+
+    @keyframes float3 {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(25px, -25px); }
+    }
+
+    @keyframes particle {
+      0% { transform: translateY(0) scale(1); opacity: 0; }
+      20% { opacity: 0.6; }
+      80% { opacity: 0.4; }
+      100% { transform: translateY(-120px) scale(0.6); opacity: 0; }
+    }
+
+    .hero .container { position: relative; z-index: 1; width: 100%; }
+
+    .hero h1 {
+      font-size: clamp(2.5rem, 6.2vw, 4.75rem);
+      font-weight: 700;
+      line-height: 1.03;
+      letter-spacing: -0.035em;
+      margin-bottom: 1.6rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 560px;
+      margin: 0 0 2.2rem;
+      color: rgba(255,255,255,.78);
+    }
+
+    .hero .container > * { animation: rise .8s cubic-bezier(.2,.7,.2,1) both; }
+    .hero .container > p { animation-delay: .15s; }
+    .hero .container > a { animation-delay: .3s; }
+    .hero .container > a + a { animation-delay: .38s; }
+
+    @keyframes rise { from { opacity: 0; transform: translateY(18px); } }
+
+    .btn {
+      display: inline-block;
+      background: linear-gradient(145deg, var(--brand) 0%, var(--brand-dark) 100%);
+      color: #fff;
+      padding: 1rem 2rem;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      margin: .5rem .6rem .5rem 0;
+      box-shadow: 0 4px 12px -4px rgba(11,122,80,.4), 0 12px 28px -12px rgba(11,122,80,.45);
+      transition: background .25s, transform .25s, box-shadow .25s;
+      letter-spacing: -0.01em;
+    }
+
+    .btn:hover {
+      background: linear-gradient(145deg, var(--brand-dark) 0%, #064f32 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px -4px rgba(11,122,80,.45), 0 18px 36px -12px rgba(11,122,80,.5);
+    }
+    .btn:active { transform: scale(.97); }
+
+    .btn-outline { background: transparent; box-shadow: none; border: 1.5px solid rgba(255,255,255,.35); }
+    .btn-outline:hover { background: rgba(255,255,255,.1); }
+
+    .hero .btn {
+      background: linear-gradient(145deg, #4EE5A8 0%, var(--mint) 100%);
+      color: var(--ink);
+    }
+    .hero .btn:hover { background: linear-gradient(145deg, #6BE8B1 0%, #4EE5A8 100%); }
+    .hero .btn-outline { background: transparent; color: #fff; }
+    .hero .btn-outline:hover { background: rgba(255,255,255,.1); }
+
+    /* SECTIONS */
+    section { padding: clamp(4.5rem, 9vw, 7.5rem) 5%; scroll-margin-top: 72px; }
+    .container { max-width: 1120px; margin: 0 auto; }
+
+    h2 {
+      font-size: clamp(2rem, 4.2vw, 3rem);
+      font-weight: 700;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 3rem;
+      color: var(--muted);
+      font-size: 1.1rem;
+      line-height: 1.7;
+      font-weight: 500;
+    }
+
+    .marquee { background: var(--mint); color: var(--ink); overflow: hidden; padding: 1rem 0; }
+    .marquee-track { display: flex; width: max-content; animation: scroll 34s linear infinite; }
+    .marquee:hover .marquee-track { animation-play-state: paused; }
+    .marquee-track span {
+      display: flex; align-items: center; gap: 1.6rem; padding-right: 1.6rem;
+      font-family: var(--display); font-weight: 600; font-size: 1.15rem; white-space: nowrap;
+    }
+    .marquee-track span::after {
+      content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--ink); opacity: .45;
+    }
+    @keyframes scroll { to { transform: translateX(-50%); } }
+
+    .about { background: #fff; }
+    .about h2 { margin-bottom: 2.5rem; }
+
+    .about-content {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 3.5rem;
+      align-items: center;
+    }
+
+    .about-text p { margin-bottom: 1.1rem; color: var(--muted); }
+
+    .about-content > div:last-child {
+      background: var(--tint);
+      padding: 2rem 2.2rem;
+      border-radius: 20px;
+      border: 1px solid var(--line);
+    }
+
+    .about-content li { padding: .35rem 0; font-weight: 500; }
+    .about-content li::marker { color: var(--brand); }
+
+    .services { background: var(--bg); }
+    .services h3 { font-size: 1.4rem; font-weight: 600; }
+
+    .pricing-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 3rem;
+      background: #fff;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--line);
+    }
+
+    .pricing-table th {
+      background: var(--ink);
+      color: #fff;
+      padding: 1rem 1.2rem;
+      text-align: left;
+      font-weight: 600;
+      font-size: .9rem;
+      letter-spacing: .02em;
+    }
+
+    .pricing-table td { padding: 1.1rem 1.2rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+    .pricing-table tr:last-child td { border-bottom: none; }
+    .pricing-table tr:hover td { background: #F1F7F4; }
+    .pricing-table td:first-child { color: var(--ink); white-space: nowrap; }
+
+    .price { font-family: var(--display); font-weight: 700; color: var(--brand); white-space: nowrap; }
+
+
+    /* ===== PACKAGE CARDS ===== */
+    .pkg-heading { margin: 3rem 0 1.2rem; }
+    .pkg-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.75rem;
+      align-items: stretch;
+      margin-bottom: 1rem;
+      padding-top: 1rem;
+    }
+    .pkg-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      height: 100%;
+      padding: 1.9rem 1.5rem 1.5rem;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-top: 4px solid var(--brand);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      transition: transform .3s, box-shadow .3s;
+      overflow: visible;
+      box-sizing: border-box;
+    }
+    .pkg-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 2px 4px rgba(10,38,32,.08), 0 26px 40px -18px rgba(10,38,32,.32);
+    }
+    .pkg-name {
+      font-family: var(--display);
+      font-size: clamp(1.15rem, 2.5vw, 1.35rem);
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: .85rem;
+      line-height: 1.3;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      hyphens: manual;
+    }
+    .pkg-price {
+      padding-bottom: 1.1rem;
+      margin-bottom: 1.1rem;
+      border-bottom: 1px dashed var(--line);
+    }
+    .pkg-usd {
+      display: block;
+      font-family: var(--display);
+      font-size: clamp(1.35rem, 3.2vw, 1.75rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--brand);
+      line-height: 1.25;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      white-space: normal;
+    }
+    .pkg-ugx {
+      display: block;
+      margin-top: .4rem;
+      font-size: clamp(.8rem, 1.8vw, .9rem);
+      color: var(--muted);
+      font-weight: 500;
+      line-height: 1.4;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      white-space: normal;
+    }
+    .pkg-list {
+      list-style: none;
+      flex: 1 1 auto;
+      margin-bottom: 1.25rem;
+      min-height: 0;
+    }
+    .pkg-list li {
+      position: relative;
+      padding: .38rem 0 .38rem 1.7rem;
+      font-size: .95rem;
+      line-height: 1.55;
+      color: var(--muted);
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+    .pkg-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: .7rem;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--tint) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M4.5 8.3l2.3 2.3 4.7-4.9' fill='none' stroke='%230B7A50' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>") center/100% no-repeat;
+    }
+    .pkg-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .45rem;
+      flex-wrap: wrap;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: .92rem;
+      line-height: 1.35;
+      padding: .8rem 1rem;
+      border-radius: 999px;
+      color: var(--brand-dark);
+      background: var(--tint);
+      border: 1px solid var(--line);
+      transition: background .25s, color .25s, transform .25s;
+      width: 100%;
+      box-sizing: border-box;
+      white-space: normal;
+      word-wrap: break-word;
+      margin-top: auto;
+    }
+    .pkg-btn .ico {
+      width: 1.15rem;
+      height: 1.15rem;
+      flex-shrink: 0;
+    }
+    .pkg-btn:hover {
+      background: var(--brand);
+      color: #fff;
+      transform: translateY(-1px);
+    }
+    .pkg-card.featured {
+      background: linear-gradient(170deg, var(--ink), var(--ink-2));
+      border-color: var(--ink);
+      border-top-color: var(--mint);
+      overflow: visible;
+      margin-top: .15rem;
+      padding-top: 2.4rem;
+    }
+    .pkg-card.featured .pkg-name { color: #fff; }
+    .pkg-card.featured .pkg-usd { color: var(--mint); }
+    .pkg-card.featured .pkg-ugx { color: rgba(255,255,255,.7); }
+    .pkg-card.featured .pkg-price { border-bottom-color: rgba(255,255,255,.18); }
+    .pkg-card.featured .pkg-list li { color: rgba(255,255,255,.88); }
+    .pkg-card.featured .pkg-list li::before { background-color: rgba(61,220,151,.18); }
+    .pkg-card.featured .pkg-btn {
+      background: var(--mint);
+      color: var(--ink);
+      border-color: var(--mint);
+    }
+    .pkg-card.featured .pkg-btn:hover {
+      background: #6BE8B1;
+      color: var(--ink);
+    }
+    .pkg-badge {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--sun), #FFD98A);
+      color: var(--ink);
+      font-size: .7rem;
+      font-weight: 700;
+      letter-spacing: .03em;
+      text-transform: uppercase;
+      line-height: 1.2;
+      padding: .45rem 1.1rem;
+      border-radius: 999px;
+      white-space: nowrap;
+      box-shadow: 0 6px 16px -6px rgba(255,200,87,.7);
+      border: 1px solid rgba(255,255,255,.35);
+      max-width: calc(100% - 1.25rem);
+      box-sizing: border-box;
+    }
+
+    /* ===== ADOBE BLOCK ===== */
+    .adobe-block {
+      margin: 3.5rem 0 3rem;
+      padding: 2.8rem 2.2rem 2rem;
+      border-radius: 28px;
+      color: #fff;
+      background:
+        radial-gradient(40rem 22rem at 100% 0%, rgba(235,16,0,.22), transparent 60%),
+        radial-gradient(30rem 20rem at 0% 100%, rgba(49,168,255,.12), transparent 60%),
+        linear-gradient(160deg, #15161A, #1F2026);
+      box-shadow: 0 30px 60px -28px rgba(0,0,0,.55);
+    }
+    .adobe-head { text-align: center; max-width: 640px; margin: 0 auto 2.4rem; }
+    .adobe-head h3 { color: #fff; font-size: 1.9rem !important; margin: 1rem 0 .6rem; }
+    .adobe-head p { color: rgba(255,255,255,.72); }
+    .adobe-chips { display: flex; justify-content: center; gap: .6rem; flex-wrap: wrap; }
+    .adobe-chip {
+      width: 44px; height: 44px; display: grid; place-items: center; border-radius: 10px;
+      font-family: var(--display); font-weight: 800; font-size: 1.05rem; color: var(--c);
+      background: #0B0C0F; border: 2px solid var(--c);
+    }
+    .adobe-block .pkg-card { background: #26272E; border-color: rgba(255,255,255,.08); border-top-color: #EB1000; box-shadow: none; }
+    .adobe-block .pkg-card:hover { box-shadow: 0 24px 40px -20px rgba(0,0,0,.7); }
+    .adobe-block .pkg-name { color: #fff; }
+    .adobe-block .pkg-usd { color: #FF5A4D; }
+    .adobe-block .pkg-ugx { color: rgba(255,255,255,.6); }
+    .adobe-block .pkg-price { border-bottom-color: rgba(255,255,255,.14); }
+    .adobe-block .pkg-list li { color: rgba(255,255,255,.85); }
+    .adobe-block .pkg-list li::before {
+      background-color: rgba(235,16,0,.2);
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M4.5 8.3l2.3 2.3 4.7-4.9' fill='none' stroke='%23FF5A4D' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    }
+    .adobe-block .pkg-btn { background: transparent; color: #fff; border-color: rgba(255,255,255,.3); }
+    .adobe-block .pkg-btn:hover { background: #EB1000; border-color: #EB1000; color: #fff; }
+    .adobe-block .pkg-card.featured { background: linear-gradient(170deg, #EB1000, #B30D00); border-color: #EB1000; border-top-color: #FFC857; }
+    .adobe-block .pkg-card.featured .pkg-usd { color: #fff; }
+    .adobe-block .pkg-card.featured .pkg-ugx { color: rgba(255,255,255,.8); }
+    .adobe-block .pkg-card.featured .pkg-list li::before { background-color: rgba(255,255,255,.22); background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M4.5 8.3l2.3 2.3 4.7-4.9' fill='none' stroke='white' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>"); }
+    .adobe-block .pkg-card.featured .pkg-btn { background: #fff; color: #B30D00; border-color: #fff; }
+    .adobe-block .pkg-card.featured .pkg-btn:hover { background: #FFF1EF; color: #B30D00; }
+    .adobe-note { margin-top: 1.6rem; text-align: center; font-size: .85rem; color: rgba(255,255,255,.55); }
+
+    .payment-box {
+      background: #fff;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 2.2rem;
+      margin-top: 1rem;
+    }
+
+    .payment-box h3 { margin-bottom: 1rem; }
+    .payment-box li::marker { color: var(--brand); }
+
+    /* Software downloads */
+    .software-block { margin-top: 3.5rem; }
+    .software-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .software-card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 1.65rem 1.5rem 1.4rem;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: .55rem;
+      transition: transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s, border-color .3s;
+    }
+    .software-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+      border-color: rgba(11,122,80,.22);
+    }
+    .software-card.highlight {
+      border-top: 4px solid var(--mint);
+      background: linear-gradient(180deg, #fff 0%, #F4FAF7 100%);
+    }
+    .software-icon {
+      width: 44px; height: 44px; border-radius: 12px;
+      display: grid; place-items: center;
+      font-family: var(--display); font-weight: 800; font-size: 1.05rem;
+      color: #31A8FF; background: #0B0C0F; border: 2px solid #31A8FF;
+    }
+    .software-icon.ai { color: #FF9A00; border-color: #FF9A00; }
+    .software-icon.id { color: #FF61F6; border-color: #FF61F6; }
+    .software-icon.pr { color: #9999FF; border-color: #9999FF; }
+    .software-icon.ae { color: #D291FF; border-color: #D291FF; }
+    .software-icon.vd { color: var(--mint); border-color: var(--mint); }
+    .software-card h4 {
+      font-family: var(--display); font-size: 1.2rem; font-weight: 700;
+      color: var(--ink); margin: 0;
+    }
+    .software-meta { font-size: .85rem; font-weight: 600; color: var(--brand); margin: 0; }
+    .software-card > p:not(.software-meta) {
+      font-size: .95rem; color: var(--muted); line-height: 1.55; flex: 1; margin: 0;
+    }
+    .software-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .35rem; }
+    .software-btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: .55rem 1.05rem; border-radius: 999px;
+      font-size: .88rem; font-weight: 600; text-decoration: none;
+      background: linear-gradient(145deg, var(--brand), var(--brand-dark));
+      color: #fff; border: 1px solid transparent;
+      transition: transform .2s, box-shadow .25s, background .25s;
+    }
+    .software-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px -8px rgba(11,122,80,.45);
+    }
+    .software-btn.soft {
+      background: var(--tint); color: var(--brand-dark); border-color: var(--line);
+    }
+    .software-btn.soft:hover {
+      background: var(--brand); color: #fff; border-color: var(--brand);
+    }
+    .release-notes {
+      margin-top: .45rem; border-top: 1px dashed var(--line); padding-top: .65rem;
+    }
+    .release-notes summary {
+      cursor: pointer; font-weight: 600; font-size: .9rem; color: var(--ink);
+      list-style: none; display: flex; align-items: center; gap: .4rem;
+    }
+    .release-notes summary::-webkit-details-marker { display: none; }
+    .release-notes summary::before {
+      content: '+'; width: 22px; height: 18px; border-radius: 50%;
+      background: var(--tint); color: var(--brand);
+      display: grid; place-items: center; font-size: 1rem; line-height: 1; flex-shrink: 0;
+    }
+    .release-notes[open] summary::before {
+      content: '−'; background: var(--brand); color: #fff;
+    }
+    .release-notes ul {
+      margin: .7rem 0 0 1.1rem; padding: 0; color: var(--muted);
+      font-size: .9rem; line-height: 1.65;
+    }
+    .software-note {
+      text-align: center; font-size: .88rem; color: var(--muted);
+      max-width: 720px; margin: .5rem auto 0; line-height: 1.6;
+    }
+    html[data-theme="dark"] .software-card {
+      background: var(--card) !important; border-color: var(--line) !important;
+    }
+    html[data-theme="dark"] .software-card.highlight {
+      background: linear-gradient(180deg, var(--card), var(--tint)) !important;
+    }
+    html[data-theme="dark"] .software-card h4 { color: var(--text); }
+    html[data-theme="dark"] .software-card > p:not(.software-meta) { color: var(--muted); }
+    html[data-theme="dark"] .software-meta { color: #5EE9A8; }
+    html[data-theme="dark"] .software-btn.soft {
+      background: var(--tint) !important; color: #5EE9A8 !important; border-color: var(--line) !important;
+    }
+    html[data-theme="dark"] .release-notes summary { color: var(--text); }
+    html[data-theme="dark"] .release-notes summary::before { background: var(--tint); color: #5EE9A8; }
+    html[data-theme="dark"] .release-notes[open] summary::before { background: var(--brand); color: #fff; }
+    html[data-theme="dark"] .release-notes ul { color: var(--muted); }
+
+    .portfolio-filters {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: .7rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .filter-btn {
+      font-family: var(--body);
+      font-size: .95rem;
+      background: #fff;
+      color: var(--text);
+      border: 1px solid var(--line);
+      padding: .55rem 1.3rem;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: all .25s;
+    }
+
+    .filter-btn:hover { border-color: var(--brand); color: var(--brand); }
+    .filter-btn.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .filter-btn:active { transform: scale(.97); }
+
+    .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1.5rem; }
+
+    .portfolio-item {
+      position: relative;
+      height: 270px;
+      border-radius: var(--radius);
+      overflow: hidden;
+      cursor: pointer;
+      background: var(--line);
+      box-shadow: var(--shadow);
+      animation: rise .45s ease backwards;
+    }
+
+    .portfolio-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+    .portfolio-item:hover img { transform: scale(1.07); }
+
+    .portfolio-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(10,38,32,.92), rgba(10,38,32,.1) 65%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      opacity: 0;
+      transition: opacity .3s;
+      color: #fff;
+      text-align: left;
+      padding: 1.4rem;
+    }
+
+    .portfolio-item:hover .portfolio-overlay { opacity: 1; }
+
+    .portfolio-overlay h3 { font-size: 1.25rem; margin-bottom: .5rem; transform: translateY(8px); transition: transform .3s; }
+    .portfolio-item:hover .portfolio-overlay h3 { transform: none; }
+
+    .portfolio-overlay span {
+      font-size: .85rem;
+      padding: .2rem .75rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,.16);
+    }
+
+    .portfolio-item.hide { display: none; }
+
+    @media (hover: none) { .portfolio-overlay { opacity: 1; } }
+
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(6,20,17,.94);
+      z-index: 2000;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 4.5rem;
+    }
+
+    .lightbox.active { display: flex; }
+
+    .lightbox-content { max-width: 900px; width: 100%; text-align: center; color: #fff; }
+    .lightbox-content img { max-width: 100%; max-height: 75vh; border-radius: 14px; box-shadow: 0 20px 60px rgba(0,0,0,.55); }
+    .lightbox-content h3 { margin-top: 1.2rem; font-size: 1.5rem; }
+
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 28px;
+      width: 46px;
+      height: 46px;
+      display: grid;
+      place-items: center;
+      font-size: 2rem;
+      line-height: 1;
+      color: #fff;
+      background: rgba(255,255,255,.1);
+      border-radius: 50%;
+      cursor: pointer;
+      border: 0;
+      transition: background .25s, color .25s;
+    }
+
+    .lightbox-close:hover { background: var(--mint); color: var(--ink); }
+
+    .lightbox-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 48px;
+      height: 48px;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(255,255,255,.1);
+      color: #fff;
+      font-size: 2rem;
+      line-height: 1;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      transition: background .25s, color .25s;
+    }
+
+    .lightbox-nav:hover { background: var(--mint); color: var(--ink); }
+    .lightbox-nav.prev { left: 20px; }
+    .lightbox-nav.next { right: 20px; }
+
+    #training { background: var(--ink) !important; color: #fff; }
+    #training h2 { color: #fff; }
+    #training .section-subtitle { color: rgba(255,255,255,.75); }
+    #training p:not(.section-subtitle) { line-height: 2; font-weight: 500; color: rgba(255,255,255,.92); }
+    #training .btn { background: var(--mint); color: var(--ink); box-shadow: none; }
+    #training .btn:hover { background: #6BE8B1; }
+
+    #faq .container { max-width: 820px; }
+    #faq h2 { margin-bottom: 2.5rem; }
+
+    .faq-item {
+      background: #fff;
+      margin-bottom: .9rem;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      overflow: hidden;
+      transition: border-color .25s, box-shadow .25s;
+    }
+
+    .faq-item:hover { border-color: #B9CDC5; }
+    .faq-item.active { border-color: var(--brand); box-shadow: var(--shadow); }
+
+    .faq-question {
+      padding: 1.2rem 1.5rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .faq-question span {
+      flex-shrink: 0;
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--tint);
+      color: var(--brand);
+      font-size: 1.2rem;
+      line-height: 1;
+      transition: background .25s, color .25s;
+    }
+
+    .faq-item.active .faq-question span { background: var(--brand); color: #fff; }
+
+    .faq-answer { padding: 0 1.5rem 1.3rem; color: var(--muted); display: none; line-height: 1.8; font-weight: 450; }
+    .faq-item.active .faq-answer { display: block; animation: rise .3s ease both; }
+
+    .container:has(> .testimonial) { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+    .container:has(> .testimonial) > h2 { grid-column: 1 / -1; margin-bottom: .5rem; }
+    .container:has(> .testimonial) > .review-count { grid-column: 1 / -1; text-align: center; margin-bottom: 2rem; color: var(--muted); font-size: 1.05rem; }
+
+    .testimonial {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--line);
+      transition: transform .3s, box-shadow .3s;
+    }
+
+    .testimonial:hover { transform: translateY(-4px); }
+
+    .testimonial::before {
+      content: '\201C';
+      display: block;
+      font-family: var(--display);
+      font-size: 4.5rem;
+      line-height: .6;
+      height: 2rem;
+      color: var(--brand);
+      opacity: .35;
+    }
+
+    .testimonial p { font-size: 1.1rem; margin-bottom: 1.2rem; color: var(--text); }
+    .testimonial strong { color: var(--muted); font-weight: 600; font-size: .95rem; }
+
+    .contact-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 2rem; align-items: start; }
+    .contact-grid .contact-form { max-width: none; margin: 0; }
+    .contact-info { display: grid; gap: .9rem; }
+
+    .info-card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 1rem 1.2rem;
+      color: var(--text);
+      text-decoration: none;
+      transition: border-color .25s, transform .25s, box-shadow .25s;
+    }
+
+    a.info-card:hover {
+      border-color: var(--brand);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+
+    .info-icon {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      background: var(--tint);
+      color: var(--brand);
+      flex-shrink: 0;
+    }
+
+    .info-icon .ico { width: 1.4rem; height: 1.4rem; }
+    .info-card small { display: block; color: var(--muted); font-size: .85rem; line-height: 1.3; }
+    .info-card strong { font-weight: 600; line-height: 1.35; }
+
+    .socials p { font-weight: 600; margin-top: .6rem; }
+    .social-row { display: flex; gap: .7rem; flex-wrap: wrap; margin-top: .6rem; }
+
+    .social-row a {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--ink);
+      color: #fff;
+      transition: background .25s, color .25s, transform .25s;
+    }
+
+    .social-row a:hover {
+      background: var(--mint);
+      color: var(--ink);
+      transform: translateY(-3px);
+    }
+
+    .map {
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      height: 220px;
+      box-shadow: var(--shadow);
+      margin-top: .4rem;
+    }
+
+    .map iframe { width: 100%; height: 100%; border: 0; }
+
+    .contact-form {
+      background: #fff;
+      padding: 2.2rem;
+      border-radius: 22px;
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      display: grid;
+      gap: 1rem;
+    }
+
+    .contact-form input,
+    .contact-form select,
+    .contact-form textarea {
+      font-family: var(--body);
+      font-size: 1rem;
+      color: var(--text);
+      padding: .95rem 1rem;
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      transition: border-color .2s, box-shadow .2s, background .2s;
+    }
+
+    .contact-form input:focus,
+    .contact-form select:focus,
+    .contact-form textarea:focus {
+      outline: none;
+      background: #fff;
+      border-color: var(--brand);
+      box-shadow: 0 0 0 4px rgba(11,122,80,.15);
+    }
+
+    .contact-form textarea { height: 150px; resize: vertical; }
+
+    .contact-form button {
+      font-family: var(--body);
+      background: var(--brand);
+      color: #fff;
+      border: none;
+      padding: 1rem;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .25s, transform .25s;
+    }
+
+    .contact-form button:hover { background: var(--brand-dark); transform: translateY(-2px); }
+    .contact-form button:active { transform: scale(.97); }
+
+    .form-status { display: none; padding: .85rem 1rem; border-radius: 10px; background: var(--tint); color: var(--brand-dark); font-weight: 500; }
+    .form-status.show { display: block; }
+    .form-status a { color: var(--brand-dark); font-weight: 700; }
+
+    footer {
+      background: var(--ink);
+      color: rgba(255,255,255,.72);
+      text-align: left;
+      padding: 4.5rem 5% 2rem;
+      border-top: 3px solid var(--mint);
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1.35fr 1.8fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    .footer-brand-col .footer-tagline {
+      margin: .85rem 0 1.25rem;
+      max-width: 32ch;
+      line-height: 1.6;
+      color: rgba(255,255,255,.7);
+    }
+
+    .footer-links {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem 2rem;
+    }
+
+    .footer-col h4 {
+      color: #fff;
+      font-family: var(--display);
+      font-size: 1.05rem;
+      margin-bottom: 1rem;
+      letter-spacing: -0.01em;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: grid;
+      gap: .55rem;
+    }
+
+    .footer-col a {
+      color: rgba(255,255,255,.75);
+      font-weight: 400;
+      text-decoration: none;
+      transition: color .2s;
+    }
+
+    .footer-col a:hover { color: var(--mint); }
+
+    .footer-contact li { color: rgba(255,255,255,.75); }
+
+    footer .social-row a {
+      color: #fff;
+      background: rgba(255,255,255,.08);
+    }
+
+    footer .social-row a:hover {
+      background: var(--mint);
+      color: var(--ink);
+    }
+
+    .footer-bottom {
+      margin-top: 2.75rem;
+      padding-top: 1.4rem;
+      border-top: 1px solid rgba(255,255,255,.1);
+      font-size: .9rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: .75rem 1.5rem;
+      color: rgba(255,255,255,.55);
+    }
+
+    .footer-bottom a {
+      color: rgba(255,255,255,.65);
+      text-decoration: none;
+    }
+
+    .footer-bottom a:hover { color: var(--mint); }
+
+    .whatsapp-button {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      width: 60px;
+      height: 60px;
+      background-color: #25D366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 16px rgba(0,0,0,.25);
+      z-index: 9999;
+      transition: all .3s ease;
+      animation: pulse 2.4s infinite;
+      text-decoration: none;
+    }
+
+    .whatsapp-button .ico { width: 32px; height: 32px; color: #fff; stroke-width: 1.9; }
+
+    .whatsapp-button:hover {
+      background-color: #1ebe57;
+      transform: scale(1.12);
+      box-shadow: 0 10px 24px rgba(37,211,102,.5);
+      animation: none;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(37,211,102,.6); }
+      70% { box-shadow: 0 0 0 16px rgba(37,211,102,0); }
+      100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
+    }
+
+    .ico { width: 1.35rem; height: 1.35rem; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+
+    @media (max-width: 768px) {
+      .hamburger { display: flex; }
+
+      .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--ink);
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem 0;
+        gap: 1.2rem;
+        display: none;
+        border-bottom: 1px solid rgba(255,255,255,.08);
+      }
+
+      .nav-links.active { display: flex; }
+      .nav-links a.nav-cta { display: inline-block; }
+
+      .hero { padding: 4.5rem 6%; min-height: auto; }
+      .hero::after { width: 18rem; height: 18rem; right: -9rem; top: 22%; opacity: .6; }
+
+      .about-content { grid-template-columns: 1fr; gap: 2rem; }
+      .container:has(> .testimonial) { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .footer-top { grid-template-columns: 1fr; gap: 2.2rem; }
+      .footer-links { grid-template-columns: 1fr 1fr; gap: 1.6rem 1.2rem; }
+      .footer-links .footer-col:last-child { grid-column: 1 / -1; }
+
+      .pkg-grid { grid-template-columns: 1fr; max-width: 420px; margin-inline: auto; gap: 1.6rem; }
+      .pkg-card { min-height: 0; }
+      .adobe-block { padding: 2rem 1.1rem 1.5rem; border-radius: 22px; }
+      .adobe-head h3 { font-size: 1.5rem !important; }
+
+      .contact-form { padding: 1.4rem; }
+      .whatsapp-button { width: 55px; height: 55px; bottom: 20px; right: 20px; }
+
+      .lightbox { padding: 1rem; }
+      .lightbox-nav { top: auto; bottom: 1.2rem; transform: none; }
+      .lightbox-nav.prev { left: calc(50% - 62px); }
+      .lightbox-nav.next { right: calc(50% - 62px); }
+      .lightbox-content img { max-height: 65vh; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+
+    /* ========== LOGO (from images folder) ========== */
+    /* Put your file at: images/logo.png  (PNG, JPG, or WEBP work) */
+    .logo {
+      text-decoration: none;
+      gap: .65rem;
+    }
+    .logo::before { display: none; } /* remove default mint dot */
+    .logo-img {
+      display: block;
+      height: 2.4rem;
+      width: auto;
+      max-width: 3.2rem;
+      object-fit: contain;
+      flex-shrink: 0;
+      border-radius: 6px;
+    }
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: .7rem;
+    }
+    .footer-brand .logo-img {
+      height: 2.8rem;
+      max-width: 3.6rem;
+    }
+    .logo-img[hidden] { display: none !important; }
+
+    /* ========== ROUND 4: live reviews ========== */
+
+    .review-count { text-align: center; color: var(--muted); font-size: 1.05rem; margin-bottom: 2.2rem; display: flex; justify-content: center; align-items: center; gap: .7rem; flex-wrap: wrap; }
+    .live-badge { display: inline-flex; align-items: center; gap: .45rem; background: #fff; color: var(--ink); border: 1px solid var(--line); border-radius: 999px; padding: .2rem .75rem; font-size: .85rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+    .live-badge i { width: 8px; height: 8px; border-radius: 50%; background: #E5484D; animation: livePulse 1.6s infinite; }
+    @keyframes livePulse { 0% { box-shadow: 0 0 0 0 rgba(229,72,77,.6); } 70% { box-shadow: 0 0 0 8px rgba(229,72,77,0); } 100% { box-shadow: 0 0 0 0 rgba(229,72,77,0); } }
+
+    .reviews { max-width: 760px; margin: 0 auto; }
+    .review-viewport { overflow: hidden; border-radius: 24px; box-shadow: var(--shadow); border: 1px solid var(--line); background: #fff; }
+    .review-track { display: flex; transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+    .review { min-width: 100%; padding: 2.6rem 2.6rem 2.2rem; position: relative; }
+    .review::before { content: '\201C'; position: absolute; right: 2rem; top: .6rem; font-family: var(--display); font-size: 7rem; line-height: 1; color: var(--brand); opacity: .1; }
+    .stars { color: #F2A900; letter-spacing: .2em; font-size: 1.15rem; margin-bottom: 1rem; }
+    .review blockquote { font-family: var(--display); font-size: clamp(1.2rem, 2.6vw, 1.5rem); line-height: 1.5; letter-spacing: -0.01em; color: var(--ink); margin-bottom: 1.6rem; }
+    .review figcaption { display: flex; align-items: center; gap: .9rem; }
+    .review figcaption strong { display: block; font-weight: 600; color: var(--text); line-height: 1.3; }
+    .review figcaption small { color: var(--muted); font-size: .88rem; }
+    .avatar { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, var(--ink), var(--brand)); color: #fff; font-weight: 700; font-size: .95rem; letter-spacing: .02em; flex-shrink: 0; }
+
+    .review-progress { height: 3px; background: var(--line); border-radius: 3px; overflow: hidden; margin: 1.2rem auto 0; max-width: 220px; }
+    .review-progress span { display: block; height: 100%; width: 0; background: var(--brand); }
+    .review-progress span.run { animation: reviewFill linear forwards; }
+    @keyframes reviewFill { to { width: 100%; } }
+
+    .review-controls { display: flex; justify-content: center; align-items: center; gap: 1rem; margin-top: 1rem; }
+    .review-arrow { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: var(--ink); font-size: 1.6rem; line-height: 1; cursor: pointer; display: grid; place-items: center; transition: background .25s, color .25s, border-color .25s; }
+    .review-arrow:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+    .review-dots { display: flex; gap: .5rem; }
+    .review-dots button { width: 10px; height: 10px; padding: 0; border: 0; border-radius: 999px; background: #B9CDC5; cursor: pointer; transition: width .3s, background .3s; }
+    .review-dots button.active { width: 28px; background: var(--brand); }
+
+    @media (max-width: 768px) {
+      .review { padding: 2rem 1.5rem 1.7rem; }
+    }
+
+    /* ========== ROUND 6: nav dropdown, WhatsApp package buttons, skills, team, apply ========== */
+    [hidden] { display: none !important; }
+    .pkg-btn { display: flex; align-items: center; justify-content: center; gap: .55rem; }
+    .pkg-btn .ico { width: 1.15rem; height: 1.15rem; }
+
+    .nav-links .has-sub { position: relative; }
+    .nav-links .has-sub > a::after { content: '▾'; font-size: .75em; margin-left: .35rem; opacity: .7; }
+    .nav-links .sub { position: absolute; top: 100%; left: -1rem; min-width: 220px; list-style: none; padding: .5rem; margin-top: .6rem;
+      background: var(--ink); border: 1px solid rgba(255,255,255,.12); border-radius: 14px; box-shadow: 0 18px 40px -12px rgba(0,0,0,.5);
+      opacity: 0; visibility: hidden; transform: translateY(6px); transition: opacity .2s, transform .2s, visibility .2s; }
+    .nav-links .sub::before { content: ''; position: absolute; left: 0; right: 0; top: -.7rem; height: .7rem; }
+    .nav-links .has-sub:hover .sub, .nav-links .has-sub:focus-within .sub { opacity: 1; visibility: visible; transform: none; }
+    .nav-links .sub a { display: block; padding: .65rem .9rem; border-radius: 10px; background: none; white-space: nowrap; }
+    .nav-links .sub a:hover { background: rgba(255,255,255,.1); }
+
+    #skills { background: #fff; }
+    .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.4rem; }
+    .skill-card { position: relative; background: var(--bg); border: 1px solid var(--line); border-radius: 20px; padding: 2rem 1.6rem 1.7rem; overflow: hidden; transition: transform .3s, box-shadow .3s, border-color .3s; }
+    .skill-card::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: linear-gradient(90deg, var(--brand), var(--mint)); }
+    .skill-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); border-color: var(--brand); }
+    .skill-no { font-family: var(--display); font-weight: 700; font-size: 2.6rem; line-height: 1; color: var(--brand); opacity: .22; display: block; margin-bottom: .6rem; }
+    .skill-card h3 { font-size: 1.3rem; margin-bottom: .6rem; }
+    .skill-card p { color: var(--muted); font-size: .98rem; margin-bottom: 1.1rem; }
+    .chips { list-style: none; display: flex; flex-wrap: wrap; gap: .45rem; }
+    .chips li { font-size: .82rem; font-weight: 600; padding: .3rem .75rem; border-radius: 999px; background: #fff; border: 1px solid var(--line); color: var(--ink); }
+    .tools { margin-top: 3rem; text-align: center; }
+    .tools h3 { font-size: 1.25rem; margin-bottom: 1.2rem; }
+    .tool-row { display: flex; flex-wrap: wrap; justify-content: center; gap: .9rem; }
+    .tool { display: inline-flex; align-items: center; gap: .6rem; padding: .45rem 1rem .45rem .5rem; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; font-weight: 600; }
+
+    #team { background: var(--bg); }
+    .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.4rem; }
+    .team-card { background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: 2rem 1.5rem; text-align: center; transition: transform .3s, box-shadow .3s; }
+    .team-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
+    .avatar { width: 92px; height: 92px; border-radius: 50%; margin: 0 auto 1.2rem; display: grid; place-items: center; object-fit: cover;
+      font-family: var(--display); font-weight: 700; font-size: 1.9rem; color: var(--mint);
+      background: linear-gradient(145deg, var(--ink), var(--brand)); box-shadow: 0 0 0 5px #fff, 0 0 0 7px var(--mint); }
+    .team-card h3 { font-size: 1.2rem; margin-bottom: .2rem; }
+    .team-card .role { color: var(--brand); font-weight: 600; font-size: .92rem; margin-bottom: .8rem; }
+    .team-card p:last-child { color: var(--muted); font-size: .95rem; }
+
+    #apply { background: #fff; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .fld { display: grid; gap: .35rem; font-weight: 600; font-size: .9rem; }
+    .fld input, .fld select, .fld textarea { width: 100%; font-weight: 400; }
+    .consent { display: flex; gap: .7rem; align-items: flex-start; font-size: .9rem; color: var(--muted); cursor: pointer; }
+    .consent input { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--brand); flex-shrink: 0; }
+    .hp { position: absolute !important; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+    .info-icon.step { font-family: var(--display); font-weight: 700; font-size: 1.2rem; background: var(--ink); color: var(--mint); }
+    .apply-note { color: var(--muted); padding: .4rem .3rem; }
+    .form-status.error { background: #FDECEA; color: #B42318; }
+    .apply-done { background: var(--bg); border: 1px solid var(--line); border-radius: 22px; box-shadow: var(--shadow); padding: 3rem 2rem; text-align: center; }
+    .apply-done h3 { font-size: 1.7rem; margin: 1rem 0 .6rem; }
+    .apply-done p { color: var(--muted); max-width: 42ch; margin: 0 auto 1.6rem; }
+    .apply-done b { color: var(--brand); font-family: var(--display); }
+    .done-icon { width: 68px; height: 68px; border-radius: 50%; margin: 0 auto; display: grid; place-items: center; background: var(--mint); color: var(--ink); font-size: 2rem; font-weight: 700; }
+
+    @media (max-width: 768px) {
+      .form-row { grid-template-columns: 1fr; }
+      .nav-links .has-sub > a::after { display: none; }
+      .nav-links .sub { position: static; opacity: 1; visibility: visible; transform: none; background: none; border: 0; box-shadow: none; padding: 0; margin: .3rem 0 0; text-align: center; }
+      .nav-links .sub::before { display: none; }
+      .nav-links .sub a { color: var(--mint); font-size: .9rem; padding: .3rem 0; }
+    }
+
+    /* ========== ROUND 7: stats band ========== */
+    .stats-band { background: radial-gradient(50rem 22rem at 85% 0%, rgba(61,220,151,.14), transparent 60%), var(--ink); color: #fff; padding: clamp(3.5rem, 7vw, 5.5rem) 5%; }
+    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); max-width: 1100px; margin: 0 auto; }
+    .stat-item { text-align: center; padding: .5rem 1rem; display: flex; flex-direction: column; align-items: center; gap: .35rem; }
+    .stat-item + .stat-item { border-left: 1px solid rgba(255,255,255,.12); }
+    .stat-item .ico { width: 2.6rem; height: 2.6rem; color: var(--mint); stroke-width: 1.7; margin-bottom: .6rem; }
+    .stat-item b { font-family: var(--display); font-weight: 700; font-size: clamp(2.4rem, 5vw, 3.8rem); line-height: 1.05; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+    .stat-item span { color: rgba(255,255,255,.75); font-weight: 500; font-size: 1.05rem; }
+    @media (max-width: 768px) {
+      .stats-grid { grid-template-columns: repeat(2, 1fr); row-gap: 2.2rem; }
+      .stat-item:nth-child(3) { border-left: 0; }
+    }
+
+    /* ========== Compact menu on tablets & small laptops (8 links need the room) ========== */
+    @media (max-width: 1180px) {
+      .hamburger { display: flex; }
+      .nav-links { position: absolute; top: 100%; left: 0; right: 0; background: var(--ink); flex-direction: column; align-items: center;
+        padding: 1.5rem 0; gap: 1.2rem; display: none; border-bottom: 1px solid rgba(255,255,255,.08); }
+      .nav-links.active { display: flex; }
+      .nav-links .has-sub > a::after { display: none; }
+      .nav-links .sub { position: static; opacity: 1; visibility: visible; transform: none; background: none; border: 0; box-shadow: none; padding: 0; margin: .3rem 0 0; text-align: center; }
+      .nav-links .sub::before { display: none; }
+      .nav-links .sub a { color: var(--mint); font-size: .9rem; padding: .3rem 0; }
+    }
+
+    /* ========== BEAUTY UPGRADE ========== */
+    ::selection { background: rgba(61,220,151,.35); color: var(--ink); }
+
+    /* Professional studio background — soft mesh, refined geometry */
+    body {
+      position: relative;
+      isolation: isolate;
+      background-color: var(--bg);
+      background-image:
+        radial-gradient(ellipse 90% 60% at 0% 0%, rgba(61,220,151,.11), transparent 58%),
+        radial-gradient(ellipse 70% 50% at 100% 0%, rgba(255,200,87,.08), transparent 52%),
+        radial-gradient(ellipse 60% 45% at 100% 100%, rgba(11,122,80,.06), transparent 55%),
+        radial-gradient(ellipse 50% 40% at 0% 100%, rgba(61,220,151,.05), transparent 50%),
+        linear-gradient(165deg, #F7FAF8 0%, var(--bg) 35%, #F2F7F4 70%, var(--bg) 100%);
+      background-attachment: fixed;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      pointer-events: none;
+      opacity: 1;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='480' height='480' viewBox='0 0 480 480'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%230B7A50' stop-opacity='0.07'/><stop offset='1' stop-color='%233DDC97' stop-opacity='0.03'/></linearGradient></defs><g fill='none'><!-- soft rings --><circle cx='80' cy='90' r='70' stroke='%230B7A50' stroke-width='1' opacity='0.07'/><circle cx='80' cy='90' r='45' stroke='%230B7A50' stroke-width='1' opacity='0.05'/><circle cx='400' cy='380' r='90' stroke='%230B7A50' stroke-width='1' opacity='0.06'/><circle cx='400' cy='380' r='55' stroke='%233DDC97' stroke-width='1' opacity='0.05'/><!-- elegant arcs --><path d='M40 300c80-60 160 40 240 0s140-50 200 10' stroke='%230B7A50' stroke-width='1.2' opacity='0.08'/><path d='M0 180c100 40 180-50 280-20s140 60 200 20' stroke='%233DDC97' stroke-width='1' opacity='0.06'/><!-- subtle geometric frames --><rect x='300' y='40' width='100' height='70' rx='12' stroke='%230B7A50' stroke-width='1' opacity='0.07'/><rect x='50' y='340' width='70' height='100' rx='14' stroke='%230B7A50' stroke-width='1' opacity='0.06'/><!-- floating dots (social / nodes) --><circle cx='200' cy='80' r='3' fill='%230B7A50' opacity='0.12'/><circle cx='220' cy='95' r='2' fill='%233DDC97' opacity='0.14'/><circle cx='185' cy='100' r='2.5' fill='%230B7A50' opacity='0.1'/><circle cx='350' cy='220' r='3' fill='%23FFC857' opacity='0.12'/><circle cx='370' cy='235' r='2' fill='%230B7A50' opacity='0.1'/><circle cx='120' cy='250' r='2.5' fill='%233DDC97' opacity='0.12'/><!-- fine diagonal hatch --><path d='M0 60l60-60M0 120l120-120M0 180l180-180M0 240l240-240M0 300l300-300M0 360l360-360M0 420l420-420M60 480l420-420M120 480l360-360M180 480l300-300' stroke='%230B7A50' stroke-width='0.6' opacity='0.04'/></g></svg>");
+      background-size: 480px 480px;
+      background-repeat: repeat;
+    }
+
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      background:
+        radial-gradient(40rem 28rem at 92% 8%, rgba(61,220,151,.10), transparent 62%),
+        radial-gradient(32rem 24rem at 5% 88%, rgba(255,200,87,.07), transparent 60%),
+        radial-gradient(24rem 20rem at 55% 45%, rgba(11,122,80,.04), transparent 65%);
+    }
+
+    html[data-theme="dark"] body {
+      background-image:
+        radial-gradient(ellipse 90% 60% at 0% 0%, rgba(61,220,151,.10), transparent 58%),
+        radial-gradient(ellipse 70% 50% at 100% 0%, rgba(255,200,87,.06), transparent 52%),
+        radial-gradient(ellipse 60% 45% at 100% 100%, rgba(61,220,151,.05), transparent 55%),
+        radial-gradient(ellipse 50% 40% at 0% 100%, rgba(94,233,168,.04), transparent 50%),
+        linear-gradient(165deg, #0A1411 0%, var(--bg) 40%, #0D1A16 100%);
+    }
+    html[data-theme="dark"] body::before {
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='480' height='480' viewBox='0 0 480 480'><g fill='none'><circle cx='80' cy='90' r='70' stroke='%235EE9A8' stroke-width='1' opacity='0.09'/><circle cx='80' cy='90' r='45' stroke='%235EE9A8' stroke-width='1' opacity='0.06'/><circle cx='400' cy='380' r='90' stroke='%235EE9A8' stroke-width='1' opacity='0.08'/><circle cx='400' cy='380' r='55' stroke='%235EE9A8' stroke-width='1' opacity='0.05'/><path d='M40 300c80-60 160 40 240 0s140-50 200 10' stroke='%235EE9A8' stroke-width='1.2' opacity='0.09'/><path d='M0 180c100 40 180-50 280-20s140 60 200 20' stroke='%235EE9A8' stroke-width='1' opacity='0.07'/><rect x='300' y='40' width='100' height='70' rx='12' stroke='%235EE9A8' stroke-width='1' opacity='0.08'/><rect x='50' y='340' width='70' height='100' rx='14' stroke='%235EE9A8' stroke-width='1' opacity='0.07'/><circle cx='200' cy='80' r='3' fill='%235EE9A8' opacity='0.18'/><circle cx='220' cy='95' r='2' fill='%23FFC857' opacity='0.14'/><circle cx='185' cy='100' r='2.5' fill='%235EE9A8' opacity='0.12'/><circle cx='350' cy='220' r='3' fill='%23FFC857' opacity='0.12'/><circle cx='370' cy='235' r='2' fill='%235EE9A8' opacity='0.12'/><circle cx='120' cy='250' r='2.5' fill='%235EE9A8' opacity='0.14'/><path d='M0 60l60-60M0 120l120-120M0 180l180-180M0 240l240-240M0 300l300-300M0 360l360-360M0 420l420-420M60 480l420-420M120 480l360-360M180 480l300-300' stroke='%235EE9A8' stroke-width='0.6' opacity='0.05'/></g></svg>");
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      body { background-attachment: scroll; }
+    }
+
+    nav {
+      background: rgba(10,38,32,.82);
+      -webkit-backdrop-filter: blur(18px) saturate(1.2);
+      backdrop-filter: blur(18px) saturate(1.2);
+      box-shadow: 0 1px 0 rgba(255,255,255,.06), 0 12px 40px -16px rgba(10,38,32,.5);
+    }
+
+    .logo {
+      letter-spacing: -0.03em;
+      transition: opacity .25s;
+    }
+    .logo:hover { opacity: .92; }
+
+    .hero {
+      background:
+        radial-gradient(48rem 32rem at 88% 8%, rgba(61,220,151,.28), transparent 58%),
+        radial-gradient(30rem 22rem at 8% 85%, rgba(255,200,87,.12), transparent 52%),
+        radial-gradient(20rem 16rem at 50% 50%, rgba(11,122,80,.08), transparent 60%),
+        linear-gradient(155deg, #041612 0%, #0A2620 38%, #0C302A 72%, #061a16 100%);
+    }
+
+    .hero h1 {
+      text-shadow: 0 2px 48px rgba(0,0,0,.3);
+      background: linear-gradient(135deg, #ffffff 25%, #E8FFF4 55%, rgba(61,220,151,.98) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      font-size: .82rem;
+      font-weight: 600;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      color: var(--mint);
+      background: rgba(61,220,151,.1);
+      border: 1px solid rgba(61,220,151,.22);
+      padding: .45rem 1.1rem;
+      border-radius: 999px;
+      margin-bottom: 1.5rem;
+      backdrop-filter: blur(8px);
+      animation: rise .7s cubic-bezier(.2,.7,.2,1) both;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--mint);
+      box-shadow: 0 0 0 3px rgba(61,220,151,.22);
+      animation: livePulse 2s infinite;
+    }
+
+    .hero .btn {
+      box-shadow: 0 4px 12px -4px rgba(61,220,151,.4), 0 14px 32px -12px rgba(61,220,151,.5);
+      letter-spacing: -0.01em;
+    }
+    .hero .btn:hover {
+      box-shadow: 0 6px 16px -4px rgba(61,220,151,.5), 0 20px 40px -12px rgba(61,220,151,.55);
+    }
+    .hero .btn-outline {
+      border-color: rgba(255,255,255,.28);
+      backdrop-filter: blur(6px);
+    }
+
+    h2 {
+      position: relative;
+      margin-bottom: 1.2rem;
+      letter-spacing: -0.03em;
+    }
+    h2::after {
+      content: '';
+      display: block;
+      width: 48px;
+      height: 3px;
+      margin: 1.1rem auto 0;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--brand), var(--mint), var(--sun));
+      opacity: .9;
+    }
+
+    .section-subtitle { margin-top: .25rem; max-width: 560px; }
+
+    .about {
+      background:
+        radial-gradient(ellipse 55% 45% at 0% 100%, rgba(61,220,151,.07), transparent 55%),
+        rgba(255,255,255,.92);
+      backdrop-filter: blur(2px);
+    }
+    .about-content > div:last-child {
+      background: linear-gradient(165deg, #F0F8F4 0%, var(--tint) 100%);
+      box-shadow: var(--shadow);
+      border-radius: 22px;
+      position: relative;
+      overflow: hidden;
+    }
+    .about-content > div:last-child::before {
+      content: '';
+      position: absolute;
+      top: -25%; right: -18%;
+      width: 160px; height: 160px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(61,220,151,.2), transparent 70%);
+      pointer-events: none;
+    }
+
+    .pkg-card {
+      overflow: visible;
+      border-radius: 22px;
+      transition: transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s, border-color .3s;
+    }
+    .pkg-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(145deg, rgba(61,220,151,.07), transparent 42%);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity .35s;
+    }
+    .pkg-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-lg);
+      border-color: rgba(11,122,80,.25);
+    }
+    .pkg-card:hover::after { opacity: 1; }
+    .pkg-card.featured {
+      box-shadow: var(--shadow-lg), 0 0 0 1px rgba(61,220,151,.15);
+    }
+    .pkg-card.featured:hover {
+      box-shadow: 0 28px 56px -18px rgba(10,38,32,.55), var(--shadow-glow);
+    }
+
+    .portfolio-item {
+      border: 1px solid rgba(10,38,32,.06);
+      transition: transform .4s cubic-bezier(.2,.7,.2,1), box-shadow .4s;
+    }
+    .portfolio-item:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+    .portfolio-overlay {
+      background: linear-gradient(to top, rgba(6,26,22,.96) 0%, rgba(10,38,32,.5) 48%, transparent 100%);
+      backdrop-filter: blur(3px);
+    }
+    .portfolio-overlay span {
+      background: rgba(61,220,151,.2);
+      border: 1px solid rgba(61,220,151,.35);
+      color: #e8fff4;
+    }
+
+    .skill-card {
+      background: linear-gradient(180deg, #fff 0%, #F7FBFA 100%);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+    }
+    .skill-card:hover {
+      border-color: rgba(11,122,80,.28);
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-6px);
+    }
+    .skill-no {
+      background: linear-gradient(135deg, var(--brand), var(--mint));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      opacity: 1;
+    }
+
+    .team-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      transition: transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s;
+    }
+    .team-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+    }
+    .team-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--brand), var(--mint), var(--sun));
+      opacity: 0;
+      transition: opacity .3s;
+    }
+    .team-card:hover::before { opacity: 1; }
+    .avatar {
+      transition: transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s;
+    }
+    .team-card:hover .avatar {
+      transform: scale(1.05);
+      box-shadow: 0 0 0 5px #fff, 0 0 0 8px rgba(61,220,151,.7);
+    }
+
+    .faq-item {
+      transition: transform .25s, border-color .25s, box-shadow .25s;
+      border-radius: 16px;
+    }
+    .faq-item:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+    .faq-item.active {
+      border-color: var(--brand);
+      box-shadow: 0 12px 32px -14px rgba(11,122,80,.32);
+    }
+
+    .info-card {
+      background: linear-gradient(145deg, #fff, #f6faf8);
+      border-radius: 18px;
+    }
+
+    .contact-form {
+      background: linear-gradient(180deg, #fff 0%, #f6faf8 100%);
+      border-radius: 24px;
+      box-shadow: var(--shadow-lg);
+    }
+    .contact-form button {
+      background: linear-gradient(135deg, var(--brand), var(--brand-dark));
+      box-shadow: 0 10px 24px -10px rgba(11,122,80,.55);
+    }
+    .contact-form button:hover {
+      background: linear-gradient(135deg, var(--brand-dark), #064f32);
+    }
+
+    .stats-band {
+      position: relative;
+      overflow: hidden;
+    }
+    .stats-band::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+      background-size: 48px 48px;
+      -webkit-mask-image: linear-gradient(to bottom, #000, transparent);
+      mask-image: linear-gradient(to bottom, #000, transparent);
+      pointer-events: none;
+    }
+    .stat-item b {
+      background: linear-gradient(135deg, #fff, var(--mint));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .marquee {
+      background: linear-gradient(90deg, var(--mint), #6BE8B1, var(--mint));
+      background-size: 200% 100%;
+      animation: marqueeBg 12s linear infinite;
+    }
+    @keyframes marqueeBg {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 200% 50%; }
+    }
+
+    .btn, .pkg-btn, .filter-btn, .nav-cta {
+      position: relative;
+      overflow: hidden;
+    }
+    .btn::after, .pkg-btn::after {
+      content: '';
+      position: absolute;
+      top: 0; left: -40%;
+      width: 40%; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.25), transparent);
+      transform: skewX(-20deg);
+      transition: left .55s;
+      pointer-events: none;
+    }
+    .btn:hover::after, .pkg-btn:hover::after { left: 120%; }
+
+    footer {
+      background:
+        radial-gradient(40rem 20rem at 0% 0%, rgba(61,220,151,.12), transparent 55%),
+        var(--ink);
+    }
+
+    .review {
+      background: linear-gradient(180deg, #fff, #f8fbf9);
+    }
+
+    #training {
+      background:
+        radial-gradient(40rem 24rem at 100% 0%, rgba(61,220,151,.18), transparent 55%),
+        var(--ink) !important;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .marquee { animation: none; background: var(--mint); }
+      .btn::after, .pkg-btn::after { display: none; }
+    }
+
+
+
+    /* Light mode — clearer text */
+    html[data-theme="light"] body,
+    html:not([data-theme="dark"]) body {
+      color: #0D1A16;
+    }
+    html[data-theme="light"] h1,
+    html[data-theme="light"] h2,
+    html[data-theme="light"] h3,
+    html[data-theme="light"] h4,
+    html:not([data-theme="dark"]) h1,
+    html:not([data-theme="dark"]) h2,
+    html:not([data-theme="dark"]) h3,
+    html:not([data-theme="dark"]) h4 {
+      color: #0A2620;
+    }
+    html[data-theme="light"] p,
+    html[data-theme="light"] .section-subtitle,
+    html[data-theme="light"] .about-text p,
+    html[data-theme="light"] .pkg-list li,
+    html[data-theme="light"] .pkg-ugx,
+    html[data-theme="light"] .faq-answer,
+    html[data-theme="light"] .skill-card p,
+    html[data-theme="light"] .team-card p:last-child,
+    html[data-theme="light"] .review figcaption small,
+    html[data-theme="light"] .info-card small,
+    html[data-theme="light"] .consent,
+    html[data-theme="light"] .apply-note,
+    html[data-theme="light"] .payment-box li,
+    html:not([data-theme="dark"]) p,
+    html:not([data-theme="dark"]) .section-subtitle,
+    html:not([data-theme="dark"]) .about-text p,
+    html:not([data-theme="dark"]) .pkg-list li,
+    html:not([data-theme="dark"]) .faq-answer {
+      color: #3A4A44;
+    }
+    html[data-theme="light"] .pkg-name,
+    html[data-theme="light"] .faq-question,
+    html[data-theme="light"] .team-card h3,
+    html[data-theme="light"] .skill-card h3,
+    html[data-theme="light"] .info-card strong,
+    html:not([data-theme="dark"]) .pkg-name,
+    html:not([data-theme="dark"]) .faq-question {
+      color: #0A2620;
+    }
+    html[data-theme="light"] .pkg-usd,
+    html:not([data-theme="dark"]) .pkg-usd {
+      color: #086340;
+    }
+
+    
+    
+    /* Hero text always high-contrast (hero bg is always dark) */
+    .hero,
+    .hero h1,
+    .hero p,
+    .hero .hero-eyebrow {
+      color: #fff;
+    }
+    .hero h1 {
+      text-shadow: 0 2px 48px rgba(0,0,0,.35);
+      background: linear-gradient(135deg, #ffffff 20%, #E8FFF4 55%, #7EF0C0 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+    html[data-theme="dark"] .hero h1,
+    html[data-theme="light"] .hero h1 {
+      background: linear-gradient(135deg, #ffffff 20%, #E8FFF4 55%, #7EF0C0 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent !important;
+    }
+    .hero p {
+      color: rgba(255,255,255,.86) !important;
+    }
+    html[data-theme="dark"] .hero p,
+    html[data-theme="light"] .hero p {
+      color: rgba(255,255,255,.86) !important;
+    }
+    .hero-eyebrow {
+      color: var(--mint) !important;
+    }
+    html[data-theme="dark"] .hero-eyebrow,
+    html[data-theme="light"] .hero-eyebrow {
+      color: var(--mint) !important;
+    }
+
+    /* Language toggle */
+    .lang-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 0;
+      height: 18px;
+      margin: 0;
+      padding: 0;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.3);
+      background: rgba(255,255,255,.1);
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .lang-toggle button {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: rgba(255,255,255,.7);
+      font-family: var(--body);
+      font-size: .52rem;
+      font-weight: 700;
+      letter-spacing: .03em;
+      padding: 0 .30rem;
+      height: 100%;
+      cursor: pointer;
+      line-height: 1;
+      transition: background .2s, color .2s;
+    }
+    .lang-toggle button.active {
+      background: var(--mint);
+      color: var(--ink);
+    }
+    .lang-toggle button:not(.active):hover {
+      color: #fff;
+      background: rgba(255,255,255,.12);
+    }
+    html[data-theme="dark"] .lang-toggle {
+      border-color: rgba(255,200,87,.35);
+      background: rgba(255,200,87,.08);
+    }
+    html[data-theme="dark"] .lang-toggle button { color: rgba(255,224,154,.75); }
+    html[data-theme="dark"] .lang-toggle button.active {
+      background: var(--sun);
+      color: var(--ink);
+    }
+
+    /* Theme toggle */
+    .theme-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 18px;
+      margin: 0;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.3);
+      background: rgba(255,255,255,.12);
+      color: #fff;
+      cursor: pointer;
+      transition: background .25s, transform .25s, border-color .25s, color .25s;
+      flex-shrink: 0;
+      padding: 0;
+    }
+    .theme-toggle:hover {
+      background: rgba(61,220,151,.28);
+      border-color: var(--mint);
+      color: #fff;
+      transform: translateY(-1px);
+    }
+    .theme-toggle svg {
+      width: 0.95rem;
+      height: 0.95rem;
+      stroke: currentColor;
+      fill: none;
+      stroke-width: 1.9;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .theme-toggle .icon-sun { display: none; }
+    .theme-toggle .icon-moon { display: block; }
+    html[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+    html[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
+    @media (max-width: 1180px) {
+      .theme-toggle { margin: 0; }
+      .nav-end { margin-left: auto; }
+    }
+
+  </style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3 21l1.6-4.8A8.5 8.5 0 1 1 8 19.6L3 21z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.5-2-1-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1-2z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8.5c0-.3.2-.5.5-.5z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-tt" viewBox="0 0 24 24"><path d="M16.5 3h-3.3v12.2a2.7 2.7 0 1 1-2.7-2.7c.3 0 .6.1.9.2V9.4A6 6 0 1 0 16.5 15V9.1c1.1.8 2.5 1.3 4 1.3V7.1C18.3 7 16.8 5.4 16.5 3z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-ph" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-ml" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.400 3.600-7 8-7s8 2.600 8 7"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.500"/><path d="M2.500 20c0-3.600 2.900-6 6.500-6s6.500 2.400 6.500 6"/><circle cx="17" cy="9" r="2.800"/><path d="M17 14c2.700 0 4.500 1.900 4.500 5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M4 12.500l5 5L20 6.500"/></symbol>
+  <symbol id="i-trend" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></symbol>
+</svg>
+
+<nav>
+  <a class="logo" href="#home" aria-label="Victa Designz home"><img class="logo-img" src="images/logo.png" alt="" width="48" height="48" onerror="this.hidden=true">Victa Designz</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home" onclick="closeMenu()" data-i18n="nav_home">Home</a></li>
+    <li><a href="#about" onclick="closeMenu()" data-i18n="nav_about">About</a></li>
+    <li class="has-sub"><a href="#services" onclick="closeMenu()" data-i18n="nav_services">Services</a>
+      <ul class="sub">
+        <li><a href="#training" onclick="closeMenu()" data-i18n="nav_training">Training</a></li>
+        <li><a href="Victa_Designz_Course_Application_Form.pdf" download="Victa_Designz_Course_Application_Form.pdf" onclick="closeMenu()" data-i18n="nav_apply">Apply for the Course</a></li>
+      </ul>
+    </li>
+    <li class="has-sub"><a href="#portfolio" onclick="closeMenu()" data-i18n="nav_portfolio">Portfolio</a>
+      <ul class="sub">
+        <li><a href="#skills" onclick="closeMenu()" data-i18n="nav_skills">Skills</a></li>
+        <li><a href="#team" onclick="closeMenu()" data-i18n="nav_team">Our Team</a></li>
+      </ul>
+    </li>
+    <li><a href="#faq" onclick="closeMenu()" data-i18n="nav_faq">FAQ</a></li>
+    <li><a class="nav-cta" href="#contact" onclick="closeMenu()" data-i18n="nav_cta">Let’s talk</a></li>
+  </ul>
+  <div class="nav-end">
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" id="langEn" class="active" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" id="langSw" data-lang="sw" aria-pressed="false">SW</button>
+    </div>
+    <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch to dark theme" title="Toggle light / dark theme">
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+    <button class="hamburger" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="progress" id="progress"></div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-orb one"></div>
+  <div class="hero-orb two"></div>
+  <div class="hero-orb three"></div>
+
+  <div class="hero-particles">
+    <span></span><span></span><span></span>
+    <span></span><span></span><span></span>
+  </div>
+
+  <div class="container">
+    <div class="hero-eyebrow" data-i18n="hero_eyebrow">Creative studio · Mukono (near KFC) & worldwide</div>
+    <h1 data-i18n-html="hero_title">Design that builds brands.<br>Websites that work.<br>Social media that grows.</h1>
+    <p data-i18n="hero_sub">We’re Victa Designz — graphic designers, website designers, mobile app developers, and social media managers. We also teach others how to master these skills.</p>
+    <a href="#services" class="btn" data-i18n="hero_btn1">View Packages</a>
+    <a href="#contact" class="btn btn-outline" data-i18n="hero_btn2">Start a Project</a>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Logo Design</span><span>Brand Identity</span><span>Website Design</span><span>Mobile Apps</span><span>Social Media</span><span>Business Cards</span><span>Flyers & Posters</span><span>Training & Mentorship</span>
+    <span>Logo Design</span><span>Brand Identity</span><span>Website Design</span><span>Mobile Apps</span><span>Social Media</span><span>Business Cards</span><span>Flyers & Posters</span><span>Training & Mentorship</span>
+  </div>
+</div>
+
+<section class="about" id="about">
+  <div class="container">
+    <h2 data-i18n="about_title">About Victa Designz</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>Victa Designz is a creative studio focused on helping businesses and individuals build strong visual identities and online presence.</p>
+        <p>We specialize in graphic design, website design, mobile app development, social media management, and practical training in these skills.</p>
+        <p>Our approach is simple: understand your goals, create designs that communicate clearly, and deliver work that helps you grow.</p>
+      </div>
+      <div>
+        <p><strong>What we do:</strong></p>
+        <ul style="margin-left: 1.2rem; margin-top: 0.5rem;">
+          <li>Logo & Brand Identity</li>
+          <li>Website Design</li>
+          <li>Mobile App Development</li>
+          <li>Social Media Management</li>
+          <li>Design Training & Mentorship</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats-band" id="stats" aria-label="Our numbers">
+  <div class="container">
+   
+    <div class="stats-grid">
+      <div class="stat-item"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg><b data-count="4">4</b><span>Team Members</span></div>
+      <div class="stat-item"><svg class="ico" aria-hidden="true"><use href="#i-users"/></svg><b data-count="40" data-suffix="+">40+</b><span>Happy Clients</span></div>
+      <div class="stat-item"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><b data-count="50" data-suffix="+">50+</b><span>Completed Projects</span></div>
+      <div class="stat-item"><svg class="ico" aria-hidden="true"><use href="#i-trend"/></svg><b data-count="6">6</b><span>Running Projects</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="container">
+    <h2 data-i18n="services_title">Services & Pricing</h2>
+    <p class="section-subtitle">Choose a package that fits your needs. Custom packages are also available.</p>
+
+    <h3 class="pkg-heading">Graphic Design Packages</h3>
+    <div class="pkg-grid">
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">Starter</h4>
+        <div class="pkg-price"><span class="pkg-usd">$15 – $27</span><span class="pkg-ugx">UGX 5,7000 – 100,000</span></div>
+        <ul class="pkg-list"><li>Logo (2 concepts)</li><li>2 revisions</li><li>files</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2AStarter%2A%20package%20%28Graphic%20Design%20Packages%29.%20Price%3A%20%2450%20%E2%80%93%20%2480%20%28UGX%20192%2C500%20%E2%80%93%20308%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Starter</a>
+      </article>
+      <article class="pkg-card featured">
+        <span class="pkg-badge">Most Popular</span>
+        <h4 class="pkg-name">Brand Basic</h4>
+        <div class="pkg-price"><span class="pkg-usd">$60 – $80</span><span class="pkg-ugx">UGX 228000 – 304000</span></div>
+        <ul class="pkg-list"><li>Logo</li><li>Business card</li><li>Social media profile kit</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2ABrand%20Basic%2A%20package%20%28Graphic%20Design%20Packages%29.%20Price%3A%20%24120%20%E2%80%93%20%24180%20%28UGX%20462%2C000%20%E2%80%93%20693%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Brand Basic</a>
+      </article>
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">Full Branding</h4>
+        <div class="pkg-price"><span class="pkg-usd">$250 – $400</span><span class="pkg-ugx">UGX 962,500 – 1,540,000</span></div>
+        <ul class="pkg-list"><li>Logo</li><li>Full brand identity</li><li>Business card</li><li>Letterhead</li><li>Social templates</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2AFull%20Branding%2A%20package%20%28Graphic%20Design%20Packages%29.%20Price%3A%20%24250%20%E2%80%93%20%24400%20%28UGX%20962%2C500%20%E2%80%93%201%2C540%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Full Branding</a>
+      </article>
+    </div>
+
+    <h3 class="pkg-heading">Website Design Packages</h3>
+    <div class="pkg-grid">
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">Landing Page</h4>
+        <div class="pkg-price"><span class="pkg-usd">$150 – $250</span><span class="pkg-ugx">UGX 577,500 – 962,500</span></div>
+        <ul class="pkg-list"><li>1-page website</li><li>Mobile friendly</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2ALanding%20Page%2A%20package%20%28Website%20Design%20Packages%29.%20Price%3A%20%24150%20%E2%80%93%20%24250%20%28UGX%20577%2C500%20%E2%80%93%20962%2C500%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Landing Page</a>
+      </article>
+      <article class="pkg-card featured">
+        <span class="pkg-badge">Most Popular</span>
+        <h4 class="pkg-name">Business Website</h4>
+        <div class="pkg-price"><span class="pkg-usd">$300 – $500</span><span class="pkg-ugx">UGX 1,155,000 – 1,925,000</span></div>
+        <ul class="pkg-list"><li>Up to 5 pages</li><li>Contact form</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2ABusiness%20Website%2A%20package%20%28Website%20Design%20Packages%29.%20Price%3A%20%24300%20%E2%80%93%20%24500%20%28UGX%201%2C155%2C000%20%E2%80%93%201%2C925%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Business Website</a>
+      </article>
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">Premium Website</h4>
+        <div class="pkg-price"><span class="pkg-usd">$600 – $900</span><span class="pkg-ugx">UGX 2,310,000 – 3,465,000</span></div>
+        <ul class="pkg-list"><li>Up to 8 pages</li><li>Contact form</li><li>Basic SEO</li><li>How-to-update training</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2APremium%20Website%2A%20package%20%28Website%20Design%20Packages%29.%20Price%3A%20%24600%20%E2%80%93%20%24900%20%28UGX%202%2C310%2C000%20%E2%80%93%203%2C465%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Premium Website</a>
+      </article>
+    </div>
+
+    <h3 class="pkg-heading">Mobile App Development</h3>
+    <div class="pkg-grid">
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">Starter App</h4>
+        <div class="pkg-price"><span class="pkg-usd">$400 – $700</span><span class="pkg-ugx">UGX 1,540,000 – 2,695,000</span></div>
+        <ul class="pkg-list"><li>Simple Android or iOS app</li><li>Up to 5 screens</li><li>Basic UI design</li><li>1 revision round</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2AStarter%20App%2A%20package%20%28Mobile%20App%20Development%29.%20Price%3A%20%24400%20%E2%80%93%20%24700%20%28UGX%201%2C540%2C000%20%E2%80%93%202%2C695%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Starter App</a>
+      </article>
+      <article class="pkg-card featured">
+        <span class="pkg-badge">Most Popular</span>
+        <h4 class="pkg-name">Business App</h4>
+        <div class="pkg-price"><span class="pkg-usd">$900 – $1,500</span><span class="pkg-ugx">UGX 3,465,000 – 5,775,000</span></div>
+        <ul class="pkg-list"><li>Android + iOS (cross-platform)</li><li>Up to 10 screens</li><li>Custom UI / branding</li><li>Backend integration basics</li><li>2 revision rounds</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2ABusiness%20App%2A%20package%20%28Mobile%20App%20Development%29.%20Price%3A%20%24900%20%E2%80%93%20%241%2C500%20%28UGX%203%2C465%2C000%20%E2%80%93%205%2C775%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Business App</a>
+      </article>
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">Premium App</h4>
+        <div class="pkg-price"><span class="pkg-usd">$2,000 – $3,500</span><span class="pkg-ugx">UGX 7,700,000 – 13,475,000</span></div>
+        <ul class="pkg-list"><li>Full cross-platform app</li><li>Unlimited screens (scoped)</li><li>Advanced features &amp; API</li><li>Admin panel</li><li>App store submission support</li><li>30 days support</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2APremium%20App%2A%20package%20%28Mobile%20App%20Development%29.%20Price%3A%20%242%2C000%20%E2%80%93%20%243%2C500%20%28UGX%207%2C700%2C000%20%E2%80%93%2013%2C475%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Premium App</a>
+      </article>
+    </div>
+
+    <h3 class="pkg-heading">Social Media Management (Monthly)</h3>
+    <div class="pkg-grid">
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">Basic</h4>
+        <div class="pkg-price"><span class="pkg-usd">$80 – $120</span><span class="pkg-ugx">UGX 308,000 – 462,000</span></div>
+        <ul class="pkg-list"><li>8–12 posts</li><li>Captions</li><li>Hashtags</li><li>Scheduling</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2ABasic%2A%20package%20%28Social%20Media%20Management%20%28Monthly%29%29.%20Price%3A%20%2480%20%E2%80%93%20%24120%20%28UGX%20308%2C000%20%E2%80%93%20462%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Basic</a>
+      </article>
+      <article class="pkg-card featured">
+        <span class="pkg-badge">Most Popular</span>
+        <h4 class="pkg-name">Standard</h4>
+        <div class="pkg-price"><span class="pkg-usd">$150 – $220</span><span class="pkg-ugx">UGX 577,500 – 847,000</span></div>
+        <ul class="pkg-list"><li>15–20 posts</li><li>Stories</li><li>Basic engagement</li><li>Monthly report</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2AStandard%2A%20package%20%28Social%20Media%20Management%20%28Monthly%29%29.%20Price%3A%20%24150%20%E2%80%93%20%24220%20%28UGX%20577%2C500%20%E2%80%93%20847%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Standard</a>
+      </article>
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">Growth</h4>
+        <div class="pkg-price"><span class="pkg-usd">$250 – $350</span><span class="pkg-ugx">UGX 962,500 – 1,347,500</span></div>
+        <ul class="pkg-list"><li>20–25 posts</li><li>Stories</li><li>Reels</li><li>Strategy</li><li>Growth support</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2AGrowth%2A%20package%20%28Social%20Media%20Management%20%28Monthly%29%29.%20Price%3A%20%24250%20%E2%80%93%20%24350%20%28UGX%20962%2C500%20%E2%80%93%201%2C347%2C500%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Growth</a>
+      </article>
+    </div>
+
+    <h3 class="pkg-heading">Training & Mentorship</h3>
+    <div class="pkg-grid">
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">One-on-One Session</h4>
+        <div class="pkg-price"><span class="pkg-usd">$10 – $15</span><span class="pkg-ugx">UGX 38,000 – 57,000</span></div>
+        <ul class="pkg-list"><li>1-hour practical training</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2AOne-on-One%20Session%2A%20package%20%28Training%20%26%20Mentorship%29.%20Price%3A%20%2430%20%E2%80%93%20%2450%20%28UGX%20115%2C500%20%E2%80%93%20192%2C500%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose One-on-One Session</a>
+      </article>
+      <article class="pkg-card featured">
+        <span class="pkg-badge">Most Popular</span>
+        <h4 class="pkg-name">Beginner Course</h4>
+        <div class="pkg-price"><span class="pkg-usd">$40 – $50</span><span class="pkg-ugx">UGX 152,000 – 190,000</span></div>
+        <ul class="pkg-list"><li>4 sessions (choose one skill)</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2ABeginner%20Course%2A%20package%20%28Training%20%26%20Mentorship%29.%20Price%3A%20%24120%20%E2%80%93%20%24180%20%28UGX%20462%2C000%20%E2%80%93%20693%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Beginner Course</a>
+      </article>
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">Full Skills Package</h4>
+        <div class="pkg-price"><span class="pkg-usd">$300 – $450</span><span class="pkg-ugx">UGX 1,155,000 – 1,732,500</span></div>
+        <ul class="pkg-list"><li>Complete training in all 3 skills</li><li>Support</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2AFull%20Skills%20Package%2A%20package%20%28Training%20%26%20Mentorship%29.%20Price%3A%20%24300%20%E2%80%93%20%24450%20%28UGX%201%2C155%2C000%20%E2%80%93%201%2C732%2C500%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Full Skills Package</a>
+      </article>
+    </div>
+
+    <div class="adobe-block">
+      <div class="adobe-head">
+        <div class="adobe-chips" aria-hidden="true"><span class="adobe-chip" style="--c:#31A8FF">Ps</span><span class="adobe-chip" style="--c:#FF9A00">Ai</span><span class="adobe-chip" style="--c:#FF61F6">Id</span><span class="adobe-chip" style="--c:#9999FF">Pr</span><span class="adobe-chip" style="--c:#D291FF">Ae</span></div>
+        <h3>Adobe Software Packages</h3>
+        <p>Get your Adobe tools installed, configured and working the way professionals use them, with training so you can start creating right away.</p>
+      </div>
+      <div class="pkg-grid">
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">Adobe Essentials</h4>
+        <div class="pkg-price"><span class="pkg-usd">$30 – $60</span><span class="pkg-ugx">UGX 115,500 – 231,000</span></div>
+        <ul class="pkg-list"><li>Setup of 1 Adobe app (Photoshop, Illustrator or Premiere Pro)</li><li>Workspace &amp; preferences configuration</li><li>1-hour guided orientation</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2AAdobe%20Essentials%2A%20package%20%28Adobe%20Software%20Packages%29.%20Price%3A%20%2430%20%E2%80%93%20%2460%20%28UGX%20115%2C500%20%E2%80%93%20231%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Adobe Essentials</a>
+      </article>
+      <article class="pkg-card featured">
+        <span class="pkg-badge">Most Popular</span>
+        <h4 class="pkg-name">Adobe Creative Pro</h4>
+        <div class="pkg-price"><span class="pkg-usd">$90 – $150</span><span class="pkg-ugx">UGX 346,500 – 577,500</span></div>
+        <ul class="pkg-list"><li>Setup of up to 3 Adobe apps</li><li>Fonts, presets &amp; plugins installed</li><li>3 hands-on training sessions</li><li>Workflow tips between apps</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2AAdobe%20Creative%20Pro%2A%20package%20%28Adobe%20Software%20Packages%29.%20Price%3A%20%2490%20%E2%80%93%20%24150%20%28UGX%20346%2C500%20%E2%80%93%20577%2C500%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Adobe Creative Pro</a>
+      </article>
+      <article class="pkg-card">
+        
+        <h4 class="pkg-name">Adobe Complete Suite</h4>
+        <div class="pkg-price"><span class="pkg-usd">$200 – $320</span><span class="pkg-ugx">UGX 770,000 – 1,232,000</span></div>
+        <ul class="pkg-list"><li>Full Creative Cloud setup, all apps</li><li>Cloud storage &amp; shared Libraries</li><li>Brand templates &amp; asset organisation</li><li>Full training programme</li><li>30 days support</li></ul>
+        <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20choose%20the%20%2AAdobe%20Complete%20Suite%2A%20package%20%28Adobe%20Software%20Packages%29.%20Price%3A%20%24200%20%E2%80%93%20%24320%20%28UGX%20770%2C000%20%E2%80%93%201%2C232%2C000%29.%20Please%20share%20the%20next%20steps." class="pkg-btn" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Choose Adobe Complete Suite</a>
+      </article>
+      </div>
+      <p class="adobe-note">Adobe subscription or licence fees are billed separately by Adobe. Packages cover setup, configuration and training only.</p>
+    </div>
+
+    <div class="payment-box">
+      <h3>Payment Terms & Methods</h3>
+      <p><strong>Payment Structure:</strong></p>
+      <ul style="margin: 0.5rem 0 1rem 1.2rem;">
+        <li>50% deposit to start the project</li>
+        <li>50% balance on completion (before final files are released)</li>
+        <li>Monthly retainers: Full payment at the beginning of each month</li>
+      </ul>
+      <p><strong>Accepted Payment Methods:</strong></p>
+      <ul style="margin: 0.5rem 0 0 1.2rem;">
+        <li>MTN Mobile Money & Airtel Money</li>
+        <li>Bank Transfer</li>
+        <li>Cash (for local clients)</li>
+        <li>Other options can be discussed</li>
+      </ul>
+    </div>
+
+    <div class="software-block" id="software">
+      <h3 class="pkg-heading">Software Downloads &amp; Release Notes</h3>
+      <p class="section-subtitle" style="margin-bottom: 2rem;">Official installers and trial downloads. Always use Adobe’s site — we help with setup and training after you install.</p>
+      <div class="software-grid">
+        <article class="software-card">
+          <div class="software-icon" aria-hidden="true">Ps</div>
+          <h4>Adobe Photoshop</h4>
+          <p class="software-meta">Photo editing · Graphics</p>
+          <p>Install from Adobe, then book our setup &amp; orientation so your workspace is ready for client work.</p>
+          <div class="software-actions">
+            <a href="https://www.adobe.com/products/photoshop/free-trial-download.html" class="software-btn" target="_blank" rel="noopener">Download / Free trial</a>
+            <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%20downloaded%20Photoshop%20and%20need%20setup%20%2F%20training." class="software-btn soft" target="_blank" rel="noopener">Request setup</a>
+          </div>
+          <details class="release-notes"><summary>Release notes &amp; tips</summary>
+            <ul><li>Use the latest Creative Cloud desktop app, then install Photoshop.</li><li>7-day free trial on Adobe’s site (Adobe ID required).</li><li>We configure workspace, brushes and colour settings after install.</li></ul>
+          </details>
+        </article>
+        <article class="software-card">
+          <div class="software-icon ai" aria-hidden="true">Ai</div>
+          <h4>Adobe Illustrator</h4>
+          <p class="software-meta">Logo &amp; vector work</p>
+          <p>Main tool for logos and scalable artwork. Download the trial, then we finish the pro setup.</p>
+          <div class="software-actions">
+            <a href="https://www.adobe.com/products/illustrator/free-trial-download.html" class="software-btn" target="_blank" rel="noopener">Download / Free trial</a>
+            <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%20downloaded%20Illustrator%20and%20need%20setup%20%2F%20training." class="software-btn soft" target="_blank" rel="noopener">Request setup</a>
+          </div>
+          <details class="release-notes"><summary>Release notes &amp; tips</summary>
+            <ul><li>Official free trial from Adobe.</li><li>Plugins and brand colour swatches on request.</li><li>Export presets for PNG, SVG and PDF during setup.</li></ul>
+          </details>
+        </article>
+        <article class="software-card">
+          <div class="software-icon id" aria-hidden="true">Id</div>
+          <h4>Adobe InDesign</h4>
+          <p class="software-meta">Layout &amp; print</p>
+          <p>For multi-page docs and print-ready files. Get the app from Adobe, then book setup with us.</p>
+          <div class="software-actions">
+            <a href="https://www.adobe.com/products/indesign/free-trial-download.html" class="software-btn" target="_blank" rel="noopener">Download / Free trial</a>
+            <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%20downloaded%20InDesign%20and%20need%20setup%20%2F%20training." class="software-btn soft" target="_blank" rel="noopener">Request setup</a>
+          </div>
+          <details class="release-notes"><summary>Release notes &amp; tips</summary>
+            <ul><li>Document presets for A4 and business cards.</li><li>Bleed and colour profiles for East Africa printers available.</li></ul>
+          </details>
+        </article>
+        <article class="software-card">
+          <div class="software-icon pr" aria-hidden="true">Pr</div>
+          <h4>Adobe Premiere Pro</h4>
+          <p class="software-meta">Video editing</p>
+          <p>For Reels, ads and social video. Install from Adobe, then request sequence presets &amp; training.</p>
+          <div class="software-actions">
+            <a href="https://www.adobe.com/products/premiere/free-trial-download.html" class="software-btn" target="_blank" rel="noopener">Download / Free trial</a>
+            <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%20downloaded%20Premiere%20Pro%20and%20need%20setup%20%2F%20training." class="software-btn soft" target="_blank" rel="noopener">Request setup</a>
+          </div>
+          <details class="release-notes"><summary>Release notes &amp; tips</summary>
+            <ul><li>Sequence presets for Reels, TikTok and Shorts.</li><li>Proxy workflow and export presets in training.</li></ul>
+          </details>
+        </article>
+        <article class="software-card">
+          <div class="software-icon ae" aria-hidden="true">Ae</div>
+          <h4>Adobe After Effects</h4>
+          <p class="software-meta">Motion graphics</p>
+          <p>Animated logos and social motion. Download the trial, then we help with templates and renders.</p>
+          <div class="software-actions">
+            <a href="https://www.adobe.com/products/aftereffects/free-trial-download.html" class="software-btn" target="_blank" rel="noopener">Download / Free trial</a>
+            <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%20downloaded%20After%20Effects%20and%20need%20setup%20%2F%20training." class="software-btn soft" target="_blank" rel="noopener">Request setup</a>
+          </div>
+          <details class="release-notes"><summary>Release notes &amp; tips</summary>
+            <ul><li>Template folders and expressions on request.</li><li>Social render settings covered in training.</li></ul>
+          </details>
+        </article>
+        <article class="software-card highlight">
+          <div class="software-icon vd" aria-hidden="true">VD</div>
+          <h4>Victa Design Resources</h4>
+          <p class="software-meta">Templates · Brand kits · Guides</p>
+          <p>Client-ready templates and brand kits with your package. Source files shared after final payment.</p>
+          <div class="software-actions">
+            <a href="https://wa.me/256742173435?text=Hi%20Victa%20Designz%21%20I%27d%20like%20to%20download%20%2F%20receive%20my%20project%20files%20and%20templates." class="software-btn" target="_blank" rel="noopener">Request download</a>
+            <a href="https://www.adobe.com/creativecloud/desktop-app.html" class="software-btn soft" target="_blank" rel="noopener">Creative Cloud app</a>
+          </div>
+          <details class="release-notes"><summary>Release notes</summary>
+            <ul>
+              <li><strong>v2026.1</strong> — Updated social template sizes for Instagram &amp; TikTok.</li>
+              <li>Brand kits include colour tokens and font pairing notes.</li>
+              <li>Editable AI, PSD and ID files after balance payment.</li>
+            </ul>
+          </details>
+        </article>
+      </div>
+      <p class="software-note">Adobe apps require a valid Adobe licence (billed by Adobe). Download only from the official links above. Our packages cover setup, configuration and training only.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="container">
+    <h2 data-i18n="portfolio_title">Selected Projects</h2>
+    <p class="section-subtitle">Click any project to view it larger. Use the filters to browse by category.</p>
+
+    <div class="portfolio-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="branding">Brand Identity</button>
+      <button class="filter-btn" data-filter="website">Websites</button>
+      <button class="filter-btn" data-filter="social">Social Media</button>
+      <button class="filter-btn" data-filter="other">Other</button>
+    </div>
+
+    <div class="portfolio-grid" id="portfolioGrid">
+      <div class="portfolio-item" tabindex="0" data-category="branding" onclick="openLightbox(this)">
+        <img src="images/portfolio/branding-1.jpg" loading="lazy" decoding="async" width="600" height="400" alt="Modern Logo Suite">
+        <div class="portfolio-overlay"><h3>Modern Logo Suite</h3><span>Brand Identity</span></div>
+      </div>
+      <div class="portfolio-item" tabindex="0" data-category="website" onclick="openLightbox(this)">
+        <img src="images/portfolio/website-1.jpg" loading="lazy" decoding="async" width="600" height="400" alt="Business Website">
+        <div class="portfolio-overlay"><h3>Business Website</h3><span>Website Design</span></div>
+      </div>
+      <div class="portfolio-item" tabindex="0" data-category="social" onclick="openLightbox(this)">
+        <img src="images/portfolio/social-1.jpg" loading="lazy" decoding="async" width="600" height="400" alt="Social Media Kit">
+        <div class="portfolio-overlay"><h3>Social Media Kit</h3><span>Social Media</span></div>
+      </div>
+      <div class="portfolio-item" tabindex="0" data-category="branding" onclick="openLightbox(this)">
+        <img src="images/portfolio/branding-2.jpg" loading="lazy" decoding="async" width="600" height="400" alt="Complete Brand Package">
+        <div class="portfolio-overlay"><h3>Complete Brand Package</h3><span>Brand Identity</span></div>
+      </div>
+      <div class="portfolio-item" tabindex="0" data-category="website" onclick="openLightbox(this)">
+        <img src="images/portfolio/website-2.jpg" loading="lazy" decoding="async" width="600" height="400" alt="Portfolio Website">
+        <div class="portfolio-overlay"><h3>Portfolio Website</h3><span>Website Design</span></div>
+      </div>
+      <div class="portfolio-item" tabindex="0" data-category="social" onclick="openLightbox(this)">
+        <img src="images/portfolio/social-2.jpg" loading="lazy" decoding="async" width="600" height="400" alt="Instagram Campaign">
+        <div class="portfolio-overlay"><h3>Instagram Campaign</h3><span>Social Media</span></div>
+      </div>
+      <div class="portfolio-item" tabindex="0" data-category="other" onclick="openLightbox(this)">
+        <img src="images/portfolio/other-1.jpg" loading="lazy" decoding="async" width="600" height="400" alt="Event Flyer Design">
+        <div class="portfolio-overlay"><h3>Event Flyer Design</h3><span>Other</span></div>
+      </div>
+      <div class="portfolio-item" tabindex="0" data-category="branding" onclick="openLightbox(this)">
+        <img src="images/portfolio/branding-3.jpg" loading="lazy" decoding="async" width="600" height="400" alt="Minimal Logo Design">
+        <div class="portfolio-overlay"><h3>Minimal Logo Design</h3><span>Brand Identity</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project preview" onclick="closeLightbox()">
+  <button class="lightbox-close" aria-label="Close preview" onclick="closeLightbox()">&times;</button>
+  <button class="lightbox-nav prev" aria-label="Previous project" onclick="event.stopPropagation(); stepLightbox(-1)">&#8249;</button>
+  <div class="lightbox-content" onclick="event.stopPropagation()">
+    <img id="lightboxImg" src="" alt="">
+    <h3 id="lightboxTitle"></h3>
+  </div>
+  <button class="lightbox-nav next" aria-label="Next project" onclick="event.stopPropagation(); stepLightbox(1)">&#8250;</button>
+</div>
+
+<section id="skills">
+  <div class="container">
+    <h2 data-i18n="skills_title">Our Skills</h2>
+    <p class="section-subtitle">Practical skills we use on real client projects every day, and the same ones we teach.</p>
+    <div class="skills-grid">
+      <article class="skill-card"><span class="skill-no">01</span><h3>Graphic Design</h3><p>Memorable identities and print-ready designs that make your business look established.</p><ul class="chips"><li>Logo design</li><li>Brand identity</li><li>Flyers &amp; posters</li><li>Business cards</li><li>Letterheads</li></ul></article>
+      <article class="skill-card"><span class="skill-no">02</span><h3>Website Design</h3><p>Clean, fast websites that look sharp on every phone and turn visitors into customers.</p><ul class="chips"><li>Landing pages</li><li>Business websites</li><li>Mobile-first layouts</li><li>Contact forms</li><li>Portfolio sites</li></ul></article>
+      <article class="skill-card"><span class="skill-no">03</span><h3>Mobile App Development</h3><p>Native-feel Android and iOS apps with clean UI, solid performance and room to grow with your business.</p><ul class="chips"><li>Android &amp; iOS</li><li>Cross-platform</li><li>UI / UX design</li><li>API integration</li><li>App store support</li></ul></article>
+      <article class="skill-card"><span class="skill-no">04</span><h3>Social Media</h3><p>Scroll-stopping visuals and consistent content that keeps your brand active and growing.</p><ul class="chips"><li>Content design</li><li>Profile kits</li><li>Campaign visuals</li><li>Monthly management</li><li>Templates</li></ul></article>
+      <article class="skill-card"><span class="skill-no">05</span><h3>Training &amp; Mentorship</h3><p>Patient, hands-on teaching for beginners and intermediate learners, with real project feedback.</p><ul class="chips"><li>One-on-one sessions</li><li>Beginner courses</li><li>Adobe setup</li><li>Feedback &amp; reviews</li></ul></article>
+    </div>
+    <div class="tools"><h3>Tools we work with</h3><div class="tool-row"><span class="tool"><span class="adobe-chip" style="--c:#31A8FF">Ps</span>Photoshop</span><span class="tool"><span class="adobe-chip" style="--c:#FF9A00">Ai</span>Illustrator</span><span class="tool"><span class="adobe-chip" style="--c:#FF61F6">Id</span>InDesign</span><span class="tool"><span class="adobe-chip" style="--c:#9999FF">Pr</span>Premiere Pro</span><span class="tool"><span class="adobe-chip" style="--c:#D291FF">Ae</span>After Effects</span><span class="tool"><span class="adobe-chip" style="--c:#3DDC84">AS</span>Android Studio</span><span class="tool"><span class="adobe-chip" style="--c:#54C5F8">Fl</span>Flutter</span><span class="tool"><span class="adobe-chip" style="--c:#007ACC">VS</span>VS Code</span></div></div>
+  </div>
+</section>
+
+<section id="team">
+  <div class="container">
+    <h2 data-i18n="team_title">Meet Our Team</h2>
+    <p class="section-subtitle">A small, dedicated team that treats every project like its own.</p>
+    <div class="team-grid">
+      <article class="team-card"><img class="avatar" src="images/team/ssserwanja.jpg" alt="Ssserwanja Victor" onerror="this.outerHTML='<span class=\'avatar\'>SG</span>'"><h3>Ssserwanja Victor</h3><p class="role">Founder &amp; Lead Designer</p><p>Leads every project from first idea to final files, and personally mentors every learner.</p></article>
+      <article class="team-card"><img class="avatar" src="images/team/Akol.jpg" alt="Akol Paulson" onerror="this.outerHTML='<span class=\'avatar\'>WD</span>'"><h3>Akol Paulson</h3><p class="role">Website, Application Design &amp; Development</p><p>Builds fast, mobile-friendly websites,applications that are easy for you to manage.</p></article>
+      <article class="team-card"><img class="avatar" src="images/team/Naira.jpg" alt="Naira Peni" onerror="this.outerHTML='<span class=\'avatar\'>SM</span>'"><h3>Naira Peni</h3><p class="role">Content &amp; Campaigns</p><p>Plans and creates content that keeps your brand consistent and visible online.</p></article>
+      <article class="team-card"><img class="avatar" src="images/team/bugembe-samson.jpeg" alt="Bugembe Samson" onerror="this.outerHTML='<span class=\'avatar\'>BS</span>'"><h3>Bugembe Samson</h3><p class="role">Training Coordinator</p><p>Schedules sessions, follows up with learners and keeps every course on track.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="training">
+  <div class="container">
+    <h2 data-i18n="training_title">Learn Design Skills With Me</h2>
+    <p class="section-subtitle">I help beginners and intermediate learners master practical skills in graphic design, website design, mobile app development, and social media management.</p>
+    <div style="text-align: center;">
+      <p>✔ Hands-on learning<br>✔ Real project guidance<br>✔ Feedback & mentorship</p>
+      <br>
+      <a href="Victa_Designz_Course_Application_Form.pdf" class="btn" download="Victa_Designz_Course_Application_Form.pdf">Apply for the Course</a>
+      <a href="#apply" class="btn btn-outline" style="margin-left:.4rem;color:#fff;border-color:rgba(255,255,255,.35)">Or apply online</a>
+    </div>
+  </div>
+</section>
+
+<section id="apply">
+  <div class="container">
+    <h2 data-i18n="apply_title">Apply for the Course</h2>
+    <p class="section-subtitle">Tell us about yourself and what you want to learn. We'll review your application and get back to you on WhatsApp, phone or email.</p>
+    <p style="text-align:center;margin:-1.2rem auto 2rem;max-width:560px">
+      <a href="Victa_Designz_Course_Application_Form.pdf" class="btn" download="Victa_Designz_Course_Application_Form.pdf" style="font-size:.95rem;padding:.75rem 1.4rem">Download application form (PDF)</a>
+    </p>
+    <div class="contact-grid apply-grid">
+      <div class="contact-info">
+        <div class="info-card"><span class="info-icon step">1</span><span><small>Apply</small><strong>Fill in the short form or download the PDF</strong></span></div>
+        <div class="info-card"><span class="info-icon step">2</span><span><small>We talk</small><strong>Confirm your track, schedule and fees</strong></span></div>
+        <div class="info-card"><span class="info-icon step">3</span><span><small>Start learning</small><strong>Hands-on sessions with real project guidance</strong></span></div>
+        <p class="apply-note">Training is available online (Zoom / Google Meet), or in person for local learners. Beginners and intermediate learners are both welcome. Prefer paper? <a href="Victa_Designz_Course_Application_Form.pdf" download="Victa_Designz_Course_Application_Form.pdf" style="color:var(--brand);font-weight:600">Download the PDF form</a>.</p>
+      </div>
+      <div>
+        <form class="contact-form" id="applyForm" onsubmit="return submitApply(event)" novalidate>
+          <div class="form-row"><label class="fld"><span>Full name</span><input type="text" name="full_name" autocomplete="name" maxlength="100" required></label><label class="fld"><span>Email</span><input type="email" name="email" autocomplete="email" maxlength="150" required></label></div>
+          <div class="form-row"><label class="fld"><span>Phone / WhatsApp</span><input type="tel" name="phone" autocomplete="tel" placeholder="+256 …" maxlength="25" required></label><label class="fld"><span>Where are you based?</span><input type="text" name="location" autocomplete="address-level2" placeholder="City / country" maxlength="100"></label></div>
+          <label class="fld"><span>Course you want to join</span><select name="course" required><option value="">Choose a course</option><option>Graphic Design</option><option>Website Design</option><option>Mobile App Development</option><option>Social Media Management</option><option>Complete Programme (all skills)</option><option>Adobe Setup &amp; Training</option></select></label>
+          <div class="form-row"><label class="fld"><span>How do you want to learn?</span><select name="mode" required><option value="">Select</option><option>Online</option><option>In person</option></select></label><label class="fld"><span>Your current level</span><select name="level" required><option value="">Select</option><option>Beginner</option><option>Intermediate</option></select></label></div>
+          <div class="form-row"><label class="fld"><span>Do you have a laptop or PC?</span><select name="has_laptop" required><option value="">Select</option><option>Yes</option><option>No</option></select></label><label class="fld"><span>Preferred schedule</span><select name="schedule"><option value="">Select</option><option>Weekday mornings</option><option>Weekday afternoons</option><option>Weekday evenings</option><option>Weekends</option><option>Flexible</option></select></label></div>
+          <label class="fld"><span>What do you want to achieve?</span><textarea name="goals" maxlength="1500" placeholder="Tell us about your goals and any experience you already have…" required></textarea></label>
+          <label class="fld"><span>How did you hear about us?</span><select name="how_heard"><option value="">Select (optional)</option><option>Instagram</option><option>Facebook</option><option>TikTok</option><option>WhatsApp</option><option>Friend / referral</option><option>Google search</option><option>Other</option></select></label>
+          <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <label class="consent"><input type="checkbox" name="consent" required> <span>I agree that Victa Designz may contact me about this course.</span></label>
+          <button type="submit">Submit Application</button>
+          <p class="form-status" id="applyStatus" role="status" aria-live="polite"></p>
+        </form>
+        <div class="apply-done" id="applyDone" hidden>
+          <div class="done-icon" aria-hidden="true">✓</div>
+          <h3>Application ready!</h3>
+          <p id="applyMsg"></p>
+          <a class="btn" id="applyWa" href="#" target="_blank" rel="noopener">Open WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container">
+    <h2 data-i18n="faq_title">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <div class="faq-question" tabindex="0" role="button" onclick="toggleFaq(this)">1. How long does a typical project take? <span>+</span></div>
+      <div class="faq-answer">Logo / Graphic Design: 3–7 days<br>Website Design: 7–14 days<br>Mobile App Development: 2–8 weeks (depending on complexity)<br>Social Media Management: Ongoing (monthly)<br>Training sessions: Flexible based on your schedule</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" tabindex="0" role="button" onclick="toggleFaq(this)">2. Do you offer revisions? <span>+</span></div>
+      <div class="faq-answer">Yes. Every package includes a set number of revisions. Extra revisions can be requested at a small additional fee.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" tabindex="0" role="button" onclick="toggleFaq(this)">3. What do I need to provide to get started? <span>+</span></div>
+      <div class="faq-answer">Your business name and details, any existing logo or brand materials, examples of styles you like, and a clear description of what you need.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" tabindex="0" role="button" onclick="toggleFaq(this)">4. Do you work with clients outside Uganda? <span>+</span></div>
+      <div class="faq-answer">Yes. I work with both local and international clients. Communication is mainly through WhatsApp, email, or Zoom.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" tabindex="0" role="button" onclick="toggleFaq(this)">5. How does payment work? <span>+</span></div>
+      <div class="faq-answer">50% deposit to start, 50% on completion. Monthly packages are paid at the beginning of each month.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" tabindex="0" role="button" onclick="toggleFaq(this)">6. What payment methods do you accept? <span>+</span></div>
+      <div class="faq-answer">MTN Mobile Money, Airtel Money, Bank Transfer, Cash (local clients), and other methods by arrangement.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" tabindex="0" role="button" onclick="toggleFaq(this)">7. Can I get a custom package? <span>+</span></div>
+      <div class="faq-answer">Yes. If the standard packages don’t fully match your needs, I can create a custom package for you.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" tabindex="0" role="button" onclick="toggleFaq(this)">8. Do you provide the source files? <span>+</span></div>
+      <div class="faq-answer">Yes. After final payment, you will receive all necessary files (including editable source files where applicable).</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" tabindex="0" role="button" onclick="toggleFaq(this)">9. Do you offer training online or in person? <span>+</span></div>
+      <div class="faq-answer">Both options are available. Online via Zoom/Google Meet. In-person training can be arranged for local clients.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question" tabindex="0" role="button" onclick="toggleFaq(this)">10. What happens after I make the deposit? <span>+</span></div>
+      <div class="faq-answer">I will confirm receipt of payment, discuss your requirements in detail, and begin working on your project according to the agreed timeline.</div>
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--tint);">
+  <div class="container">
+    <h2 data-i18n="reviews_title">What Clients Say</h2>
+    <p class="review-count"><span class="live-badge"><i></i>Live</span> Based on <strong>24+ client reviews</strong></p>
+    <div class="reviews" role="region" aria-roledescription="carousel" aria-label="Client reviews">
+      <div class="review-viewport">
+        <div class="review-track" id="reviewTrack">
+      <figure class="review">
+        <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote>“Victa transformed our brand identity and social media presence. Professional, creative, and easy to work with.”</blockquote>
+        <figcaption><span class="avatar" aria-hidden="true">MM</span><span><strong>Mukisa Mathius</strong><small>Client</small></span></figcaption>
+      </figure>
+      <figure class="review">
+        <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote>“The website she designed for my business looks modern and works perfectly on mobile. Highly recommended!”</blockquote>
+        <figcaption><span class="avatar" aria-hidden="true">TK</span><span><strong>Tonny Kabali</strong><small>Client</small></span></figcaption>
+      </figure>
+      <figure class="review">
+        <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote>“Great communication from start to finish, fast turnaround, and the final designs exceeded what I expected.”</blockquote>
+        <figcaption><span class="avatar" aria-hidden="true">MI</span><span><strong>Musoke Ian</strong><small>Client</small></span></figcaption>
+      </figure>
+        </div>
+      </div>
+      <div class="review-progress"><span id="reviewBar"></span></div>
+      <div class="review-controls">
+        <button type="button" class="review-arrow" id="reviewPrev" aria-label="Previous review">&#8249;</button>
+        <div class="review-dots" id="reviewDots"></div>
+        <button type="button" class="review-arrow" id="reviewNext" aria-label="Next review">&#8250;</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2 data-i18n="contact_title">Let’s Work Together</h2>
+    <p class="section-subtitle">Have a project in mind or want to learn design skills? I’d love to hear from you.</p>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <a class="info-card" href="https://wa.me/256742173435" target="_blank" rel="noopener">
+          <span class="info-icon"><svg class="ico"><use href="#i-wa"/></svg></span>
+          <span><small>WhatsApp (fastest reply)</small><strong>+256 742 173 435</strong></span>
+        </a>
+        <a class="info-card" href="tel:+256742173435">
+          <span class="info-icon"><svg class="ico"><use href="#i-ph"/></svg></span>
+          <span><small>Call me</small><strong>+256 742 173 435</strong></span>
+        </a>
+        <a class="info-card" href="mailto:hello@victadesignz.com">
+          <span class="info-icon"><svg class="ico"><use href="#i-ml"/></svg></span>
+          <span><small>Email</small><strong>hello@victadesignz.com</strong></span>
+        </a>
+        <div class="info-card">
+          <span class="info-icon"><svg class="ico"><use href="#i-pin"/></svg></span>
+          <span><small>Based in</small><strong>Mukono, Uganda · near KFC · working worldwide</strong></span>
+        </div>
+
+        <div class="socials">
+          <p>Follow my work</p>
+          <div class="social-row">
+            <a href="https://instagram.com/victadesignz" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico"><use href="#i-ig"/></svg></a>
+            <a href="https://facebook.com/victadesignz" target="_blank" rel="noopener" aria-label="Facebook"><svg class="ico"><use href="#i-fb"/></svg></a>
+            <a href="https://www.tiktok.com/@victadesignz?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener" aria-label="TikTok"><svg class="ico"><use href="#i-tt"/></svg></a>
+            <a href="https://wa.me/256742173435" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="ico"><use href="#i-wa"/></svg></a>
+          </div>
+        </div>
+
+        <div class="map">
+          <iframe title="Map of Mukono near KFC, Uganda" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=KFC+Mukono+Uganda&output=embed"></iframe>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="return sendForm(event)">
+        <input type="text" name="name" autocomplete="name" aria-label="Your name" placeholder="Your Name" required>
+        <input type="email" name="email" autocomplete="email" aria-label="Your email" placeholder="Your Email" required>
+        <input type="tel" name="phone" autocomplete="tel" aria-label="Phone" placeholder="Phone (optional)">
+        <select name="service" aria-label="Service interested in" required>
+          <option value="">Service interested in</option>
+          <option>Graphic Design</option>
+          <option>Website Design</option>
+          <option>Mobile App Development</option>
+          <option>Social Media Management</option>
+          <option>Training / Mentorship</option>
+          <option>Other</option>
+        </select>
+        <textarea name="message" aria-label="Project details" placeholder="Tell me about your project..." required></textarea>
+        <button type="submit">Send via WhatsApp</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand-col">
+        <div class="footer-brand"><img class="logo-img" src="images/logo.png" alt="" width="48" height="48" onerror="this.hidden=true"><strong>Victa Designz</strong></div>
+        <p class="footer-tagline">Graphic design, websites, social media and training for brands that want to grow.</p>
+        <div class="social-row">
+          <a href="https://instagram.com/victadesignz" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico"><use href="#i-ig"/></svg></a>
+          <a href="https://facebook.com/victadesignz" target="_blank" rel="noopener" aria-label="Facebook"><svg class="ico"><use href="#i-fb"/></svg></a>
+          <a href="https://www.tiktok.com/@victadesignz?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener" aria-label="TikTok"><svg class="ico"><use href="#i-tt"/></svg></a>
+          <a href="https://wa.me/256742173435" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="ico"><use href="#i-wa"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#services">Services &amp; Pricing</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#team">Our Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Learn</h4>
+          <ul>
+            <li><a href="#training">Training</a></li>
+            <li><a href="Victa_Designz_Course_Application_Form.pdf" download="Victa_Designz_Course_Application_Form.pdf">Apply for the Course</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get in touch</h4>
+          <ul class="footer-contact">
+            <li><a href="https://wa.me/256742173435" target="_blank" rel="noopener">+256 742 173 435</a></li>
+            <li><a href="mailto:hello@victadesignz.com">hello@victadesignz.com</a></li>
+            <li>Mukono, Uganda </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Victa Designz. All rights reserved.</span>
+      <span class="footer-bottom-links"><a href="#services">Services</a> · <a href="#contact">Let’s talk</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/256742173435" class="whatsapp-button" target="_blank" rel="noopener noreferrer" title="Chat with us on WhatsApp" aria-label="Chat with us on WhatsApp">
+  <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+</a>
+
+<script>
+  function syncMenu(open) {
+    const b = document.getElementById('menuBtn');
+    b.classList.toggle('open', open);
+    b.setAttribute('aria-expanded', open);
+    b.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  }
+
+  function toggleMenu() {
+    syncMenu(document.getElementById('navLinks').classList.toggle('active'));
+  }
+
+  function closeMenu() {
+    document.getElementById('navLinks').classList.remove('active');
+    syncMenu(false);
+  }
+
+  document.addEventListener('click', (e) => { if (!e.target.closest('nav')) closeMenu(); });
+  addEventListener('resize', () => { if (innerWidth > 768) closeMenu(); });
+
+  function toggleFaq(element) {
+    const item = element.parentElement;
+    item.classList.toggle('active');
+    const span = element.querySelector('span');
+    span.textContent = item.classList.contains('active') ? '−' : '+';
+    element.setAttribute('aria-expanded', item.classList.contains('active'));
+  }
+
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+      btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
+
+      const filter = btn.getAttribute('data-filter');
+
+      portfolioItems.forEach(item => {
+        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+          item.classList.remove('hide');
+        } else {
+          item.classList.add('hide');
+        }
+      });
+    });
+  });
+
+  let lbItems = [], lbIndex = 0, lbLastFocus = null;
+
+  function openLightbox(el) {
+    lbItems = [...document.querySelectorAll('.portfolio-item:not(.hide)')];
+    lbIndex = Math.max(0, lbItems.indexOf(el));
+    lbLastFocus = document.activeElement;
+    showLightbox();
+    const lb = document.getElementById('lightbox');
+    lb.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    lb.querySelector('.lightbox-close').focus();
+  }
+
+  function showLightbox() {
+    const el = lbItems[lbIndex];
+    const img = el.querySelector('img');
+    const big = document.getElementById('lightboxImg');
+    const small = img.currentSrc || img.src;
+    // Prefer a larger local file if you add one with "-large" in the name, e.g. branding-1-large.jpg
+    const large = small.replace(/(\.[a-z]+)$/i, '-large$1');
+    big.onerror = () => { big.onerror = null; big.src = small; };
+    big.src = large !== small ? large : small;
+    // If using Unsplash-style URLs, still bump size
+    if (/w=\d+/.test(small)) big.src = small.replace(/w=\d+&h=\d+/, 'w=1400&h=933');
+    big.alt = img.alt;
+    document.getElementById('lightboxTitle').textContent = el.querySelector('h3').textContent;
+  }
+
+  function stepLightbox(dir) {
+    lbIndex = (lbIndex + dir + lbItems.length) % lbItems.length;
+    showLightbox();
+  }
+
+  function closeLightbox() {
+    const lb = document.getElementById('lightbox');
+    if (!lb.classList.contains('active')) return;
+    lb.classList.remove('active');
+    document.body.style.overflow = '';
+    if (lbLastFocus) lbLastFocus.focus();
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { closeLightbox(); closeMenu(); }
+    if (document.getElementById('lightbox').classList.contains('active')) {
+      if (e.key === 'ArrowLeft') stepLightbox(-1);
+      if (e.key === 'ArrowRight') stepLightbox(1);
+    }
+  });
+
+  function imgFallback(img) {
+    if (img.dataset.fb) return;
+    img.dataset.fb = 1;
+    const svg = "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#0A2620'/><stop offset='1' stop-color='#0B7A50'/></linearGradient></defs><rect width='600' height='400' fill='url(#g)'/><circle cx='470' cy='110' r='120' fill='#3DDC97' opacity='.25'/><circle cx='120' cy='330' r='80' fill='#FFC857' opacity='.18'/></svg>";
+    img.src = 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+  }
+  document.querySelectorAll('.portfolio-item img').forEach(img => {
+    img.addEventListener('error', () => imgFallback(img));
+    if (img.complete && img.naturalWidth === 0) imgFallback(img);
+  });
+
+  document.querySelectorAll('.portfolio-item').forEach(it => {
+    it.setAttribute('role', 'button');
+    it.setAttribute('aria-label', 'View ' + it.querySelector('h3').textContent);
+  });
+  document.querySelectorAll('.faq-question').forEach(q => q.setAttribute('aria-expanded', 'false'));
+  document.querySelectorAll('.filter-btn').forEach(b => b.setAttribute('aria-pressed', b.classList.contains('active')));
+
+  function sendForm(e) {
+    e.preventDefault();
+    const f = e.target, d = new FormData(f);
+      if (CONTACT_ENDPOINT) fetch(CONTACT_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(Object.fromEntries(d)) }).catch(() => {});
+    const text = 'Hi Victa Designz, my name is ' + d.get('name') + '.\nService: ' + d.get('service') +
+      '\nEmail: ' + d.get('email') + (d.get('phone') ? '\nPhone: ' + d.get('phone') : '') + '\n\n' + d.get('message');
+    const url = 'https://wa.me/256742173435?text=' + encodeURIComponent(text);
+    const s = document.getElementById('formStatus');
+    const w = window.open(url, '_blank');
+    if (w) w.opener = null;
+    s.innerHTML = w ? 'Thanks! WhatsApp is opening with your message. Just press send.'
+                    : 'Almost done: <a href="' + url + '" target="_blank" rel="noopener">tap here to send your message on WhatsApp</a>.';
+    s.classList.add('show');
+    f.reset();
+    return false;
+  }
+
+  const bar = document.getElementById('progress');
+  addEventListener('scroll', () => {
+    const d = document.documentElement;
+    bar.style.width = (d.scrollTop / (d.scrollHeight - d.clientHeight) * 100) + '%';
+  }, { passive: true });
+
+  document.addEventListener('keydown', (e) => {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('.faq-question, .portfolio-item')) {
+      e.preventDefault();
+      e.target.click();
+    }
+  });
+
+  // Live client reviews carousel (auto-rotates, pauses on hover/focus, swipe + keyboard friendly)
+  (function () {
+    const track = document.getElementById('reviewTrack');
+    if (!track) return;
+    const slides = [...track.children];
+    const dotsBox = document.getElementById('reviewDots');
+    const bar = document.getElementById('reviewBar');
+    const wrap = track.closest('.reviews');
+    const DELAY = 6000;
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let i = 0, timer = null, paused = false;
+
+    slides.forEach((s, n) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.setAttribute('aria-label', 'Show review ' + (n + 1));
+      b.addEventListener('click', () => go(n));
+      dotsBox.appendChild(b);
+    });
+
+    function stop() { clearTimeout(timer); bar.classList.remove('run'); }
+    function start() {
+      stop();
+      void bar.offsetWidth;
+      if (reduce || paused || document.hidden) return;
+      bar.style.animationDuration = DELAY + 'ms';
+      bar.classList.add('run');
+      timer = setTimeout(() => go(i + 1), DELAY);
+    }
+    function go(n) {
+      i = (n + slides.length) % slides.length;
+      track.style.transform = 'translateX(-' + (i * 100) + '%)';
+      slides.forEach((s, k) => s.setAttribute('aria-hidden', k !== i));
+      [...dotsBox.children].forEach((d, k) => d.classList.toggle('active', k === i));
+      start();
+    }
+
+    document.getElementById('reviewPrev').addEventListener('click', () => go(i - 1));
+    document.getElementById('reviewNext').addEventListener('click', () => go(i + 1));
+    wrap.addEventListener('mouseenter', () => { paused = true; stop(); });
+    wrap.addEventListener('mouseleave', () => { paused = false; start(); });
+    wrap.addEventListener('focusin', () => { paused = true; stop(); });
+    wrap.addEventListener('focusout', () => { paused = false; start(); });
+    document.addEventListener('visibilitychange', start);
+
+    let x0 = null;
+    wrap.addEventListener('touchstart', (e) => { x0 = e.touches[0].clientX; }, { passive: true });
+    wrap.addEventListener('touchend', (e) => {
+      if (x0 === null) return;
+      const dx = e.changedTouches[0].clientX - x0;
+      if (Math.abs(dx) > 50) go(i + (dx < 0 ? 1 : -1));
+      x0 = null;
+    });
+
+    go(0);
+  })();
+  
+  const APPLY_ENDPOINT = '';
+  const CONTACT_ENDPOINT = '';   // optional: also save contact-form messages (XAMPP: 'api/contact.php')
+  const WA_NUMBER = '256742173435';
+
+  function applyMessage(d) {
+    return ['*New course application*', 'Name: ' + d.full_name, 'Email: ' + d.email, 'Phone: ' + d.phone, 'Location: ' + (d.location || '-'),
+      'Course: ' + d.course, 'Learning mode: ' + d.mode, 'Level: ' + d.level, 'Has laptop/PC: ' + d.has_laptop,
+      'Preferred schedule: ' + (d.schedule || '-'), 'Heard about us via: ' + (d.how_heard || '-'), '', 'Goals: ' + d.goals].join('\n');
+  }
+
+  async function submitApply(e) {
+    e.preventDefault();
+    const f = e.target, btn = f.querySelector('button[type=submit]'), s = document.getElementById('applyStatus');
+    s.className = 'form-status';
+    if (!f.checkValidity()) { f.reportValidity(); return false; }
+    const d = Object.fromEntries(new FormData(f));
+    d.consent = f.consent.checked;
+    if (d.website) return false;   // bot trap
+    const url = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(applyMessage(d));
+    const done = document.getElementById('applyDone');
+    const finish = (ref) => {
+      document.getElementById('applyMsg').innerHTML = ref
+        ? 'Your reference is <b>' + ref + '</b>. We will contact you soon. You can also send the details on WhatsApp for a faster reply.'
+        : 'Your application is ready in WhatsApp. Just press <b>send</b> to complete it. If WhatsApp did not open, tap the button below.';
+      document.getElementById('applyWa').href = url;
+      f.hidden = true; done.hidden = false; f.reset();
+      done.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    };
+    if (!APPLY_ENDPOINT) { window.open(url, '_blank'); finish(''); return false; }
+    btn.disabled = true; btn.textContent = 'Submitting…';
+    try {
+      const r = await fetch(APPLY_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(d) });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(j.error || 'Something went wrong. Please try again.');
+      finish(j.ref || 'received');
+    } catch (err) {
+      s.textContent = err instanceof TypeError ? 'We could not reach the server. Please try again, or message us on WhatsApp.' : err.message;
+      s.classList.add('show', 'error');
+    }
+    btn.disabled = false; btn.textContent = 'Submit Application';
+    return false;
+  }
+
+  // ---------- Animated counters ----------
+  (function () {
+    const els = document.querySelectorAll('[data-count]');
+    if (!els.length) return;
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const run = (el) => {
+      const end = +el.dataset.count, suf = el.dataset.suffix || '';
+      if (reduce) { el.textContent = end.toLocaleString() + suf; return; }
+      const t0 = performance.now(), D = 1600;
+      const step = (t) => {
+        const p = Math.min((t - t0) / D, 1), e = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(end * e).toLocaleString() + suf;
+        if (p < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    };
+    const io = new IntersectionObserver((entries) => entries.forEach((x) => {
+      if (x.isIntersecting) { run(x.target); io.unobserve(x.target); }
+    }), { threshold: .4 });
+    els.forEach((el) => { if (!reduce) el.textContent = '0' + (el.dataset.suffix || ''); io.observe(el); });
+  })();
+
+  // ---------- Theme toggle (light / dark) ----------
+  (function () {
+    const KEY = 'vtd-theme';
+    const root = document.documentElement;
+    const btn = document.getElementById('themeToggle');
+    const preferDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const saved = localStorage.getItem(KEY);
+    const initial = saved || (preferDark ? 'dark' : 'light');
+    function apply(theme) {
+      root.setAttribute('data-theme', theme);
+      localStorage.setItem(KEY, theme);
+      if (btn) {
+        btn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
+      }
+    }
+    apply(initial === 'dark' ? 'dark' : 'light');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        apply(next);
+      });
+    }
+  })();
+
+
+  // ---------- Language toggle (English / Swahili) ----------
+  (function () {
+    const KEY = 'vtd-lang';
+    const dict = {
+      en: {
+        nav_home: 'Home',
+        nav_about: 'About',
+        nav_services: 'Services',
+        nav_portfolio: 'Portfolio',
+        nav_skills: 'Skills',
+        nav_team: 'Our Team',
+        nav_training: 'Training',
+        nav_apply: 'Apply for the Course',
+        nav_faq: 'FAQ',
+        nav_cta: 'Let’s talk',
+        hero_eyebrow: 'Creative studio · Mukono (near KFC) & worldwide',
+        hero_title: 'Design that builds brands.<br>Websites that work.<br>Social media that grows.',
+        hero_sub: 'We’re Victa Designz — graphic designers, website designers, mobile app developers, and social media managers. We also teach others how to master these skills.',
+        hero_btn1: 'View Packages',
+        hero_btn2: 'Start a Project',
+        about_title: 'About Victa Designz',
+        services_title: 'Services & Pricing',
+        portfolio_title: 'Selected Projects',
+        skills_title: 'Our Skills',
+        team_title: 'Meet Our Team',
+        training_title: 'Learn Design Skills With Me',
+        apply_title: 'Apply for the Course',
+        faq_title: 'Frequently Asked Questions',
+        reviews_title: 'What Clients Say',
+        contact_title: 'Let’s Work Together'
+      },
+      sw: {
+        nav_home: 'Nyumbani',
+        nav_about: 'Kuhusu',
+        nav_services: 'Huduma',
+        nav_portfolio: 'Kazi',
+        nav_skills: 'Ujuzi',
+        nav_team: 'Timu Yetu',
+        nav_training: 'Mafunzo',
+        nav_apply: 'Omba Kozi',
+        nav_faq: 'Maswali',
+        nav_cta: 'Tuongee',
+        hero_eyebrow: 'Studio ya ubunifu · Mukono (karibu na KFC) na duniani',
+        hero_title: 'Ubunifu unaojenga chapa.<br>Tovuti zinazofanya kazi.<br>Mitandao inayokuza biashara.',
+        hero_sub: 'Sisi ni Victa Designz — wabunifu wa picha, wabunifu wa tovuti, watengenezaji wa programu za simu, na wasimamizi wa mitandao ya kijamii. Tunafundisha pia wengine ujuzi huu.',
+        hero_btn1: 'Angalia Pakiti',
+        hero_btn2: 'Anza Mradi',
+        about_title: 'Kuhusu Victa Designz',
+        services_title: 'Huduma na Bei',
+        portfolio_title: 'Miradi Iliyochaguliwa',
+        skills_title: 'Ujuzi Wetu',
+        team_title: 'Kutana na Timu Yetu',
+        training_title: 'Jifunze Ujuzi wa Ubunifu Nasi',
+        apply_title: 'Omba Kozi',
+        faq_title: 'Maswali Yanayoulizwa Sana',
+        reviews_title: 'Wateja Wanasema Nini',
+        contact_title: 'Tufanye Kazi Pamoja'
+      }
+    };
+
+    const btnEn = document.getElementById('langEn');
+    const btnSw = document.getElementById('langSw');
+
+    function applyLang(lang) {
+      const pack = dict[lang] || dict.en;
+      document.documentElement.setAttribute('lang', lang === 'sw' ? 'sw' : 'en');
+      localStorage.setItem(KEY, lang);
+
+      document.querySelectorAll('[data-i18n]').forEach((el) => {
+        const key = el.getAttribute('data-i18n');
+        if (pack[key] != null) el.textContent = pack[key];
+      });
+      document.querySelectorAll('[data-i18n-html]').forEach((el) => {
+        const key = el.getAttribute('data-i18n-html');
+        if (pack[key] != null) el.innerHTML = pack[key];
+      });
+
+      if (btnEn && btnSw) {
+        btnEn.classList.toggle('active', lang === 'en');
+        btnSw.classList.toggle('active', lang === 'sw');
+        btnEn.setAttribute('aria-pressed', lang === 'en' ? 'true' : 'false');
+        btnSw.setAttribute('aria-pressed', lang === 'sw' ? 'true' : 'false');
+      }
+    }
+
+    const saved = localStorage.getItem(KEY);
+    applyLang(saved === 'sw' ? 'sw' : 'en');
+
+    if (btnEn) btnEn.addEventListener('click', () => applyLang('en'));
+    if (btnSw) btnSw.addEventListener('click', () => applyLang('sw'));
+  })();
+
+</script>
+
+</body>
+</html>
